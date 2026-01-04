@@ -228,11 +228,11 @@ body.menu-open {
     }
     
     .slides {
-        width: calc(100vw * 6);
+        width: calc(100% * 6);
     }
     
     .slides img {
-        width: 100vw;
+        width: 100%;
         height: 100%;
         object-fit: cover;
     }
@@ -518,10 +518,11 @@ body.menu-open {
 @media (max-width: 1024px) {
     html, body {
         overflow-x: hidden;
-        max-width: 100vw;
+        max-width: 100%;
     }
     
-    * {
+    /* Target specific elements that might cause overflow */
+    .slider, .slides, .container, .grid-top-brand, .bank-offers {
         max-width: 100%;
     }
     
