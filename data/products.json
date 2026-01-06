@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Arnli",
+    "brand": "Brookes",
+    "pack": "Pack Size: 2x10's",
+    "price": 68,
+    "oldPrice": 75,
+    "off": "10% Off",
+    "letter": "A",
+    "img": "https://via.placeholder.com/140x90?text=Arnli"
+  },
+  {
+    "name": "Artifen",
+    "brand": "Abbott Laboratories",
+    "pack": "Pack Size: 10x10's",
+    "price": 69,
+    "oldPrice": 77,
+    "off": "10% Off",
+    "letter": "A",
+    "img": "https://via.placeholder.com/140x90?text=Artifen"
+  },
+  {
+    "name": "Advacort Ointment",
+    "brand": "Atco",
+    "pack": "Pack Size: 0.1%",
+    "price": 144,
+    "oldPrice": 160,
+    "off": "10% Off",
+    "letter": "A",
+    "img": "https://via.placeholder.com/140x90?text=Advacort"
+  },
+  {
+    "name": "AV-Sartan 10 mg/160 mg",
+    "brand": "Barrett",
+    "pack": "Pack Size: 14",
+    "price": 540,
+    "oldPrice": 600,
+    "off": "10% Off",
+    "letter": "A",
+    "img": "https://via.placeholder.com/140x90?text=AV-Sartan"
+  },
+  {
+    "name": "Aidra",
+    "brand": "Wilshire",
+    "pack": "Pack Size: 3x10's",
+    "price": 360,
+    "oldPrice": 400,
+    "off": "10% Off",
+    "letter": "A",
+    "img": "https://via.placeholder.com/140x90?text=Aidra"
+  },
+  {
+    "name": "Acabel",
+    "brand": "Continental Pharma",
+    "pack": "Pack Size: 1x10's",
+    "price": 115,
+    "oldPrice": 125,
+    "off": "10% Off",
+    "letter": "A",
+    "img": "https://via.placeholder.com/140x90?text=Acabel"
+  },
+  {
+    "name": "Brufen",
+    "brand": "Abbott",
+    "pack": "Pack Size: 1x10's",
+    "price": 120,
+    "oldPrice": 140,
+    "off": "15% Off",
+    "letter": "B",
+    "img": "https://via.placeholder.com/140x90?text=Brufen"
+  },
+  {
+    "name": "Cetirizine",
+    "brand": "XYZ Pharma",
+    "pack": "Pack Size: 2x10's",
+    "price": 80,
+    "oldPrice": 90,
+    "off": "5% Off",
+    "letter": "C",
+    "img": "https://via.placeholder.com/140x90?text=Cetirizine"
+  }
+]

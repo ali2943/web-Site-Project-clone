@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ok Strawberry Condoms Pack of 3",
+    "brand": "Others",
+    "pack": "Pack Size: 1",
+    "price": 119,
+    "oldPrice": 125,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=OK+Strawberry",
+    "available": true
+  },
+  {
+    "name": "Pulse Delay Condoms 3 Pcs. Pack",
+    "brand": "Pcs",
+    "pack": "Pack Size: 3 Pcs.",
+    "price": 111,
+    "oldPrice": 117,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pulse+Delay",
+    "available": true
+  },
+  {
+    "name": "Pulse Ultra Thin Condoms 3 Pcs. Pack",
+    "brand": "Pcs",
+    "pack": "Pack Size: 3 Pcs.",
+    "price": 111,
+    "oldPrice": 117,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pulse+Ultra+Thin",
+    "available": true
+  },
+  {
+    "name": "Durex Performa",
+    "brand": "Condom",
+    "pack": "Pack Size: 1x3's",
+    "price": 523,
+    "oldPrice": 559,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Durex+Performa",
+    "available": true
+  }
+]

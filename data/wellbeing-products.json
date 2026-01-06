@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Raheeq Sidr Honey 125 gm Bottle",
+    "brand": "Honey",
+    "pack": "Pack Size: 125 gm",
+    "price": 637,
+    "oldPrice": 670,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/200x200?text=Honey+125g",
+    "available": true
+  },
+  {
+    "name": "Raheeq Sidr Honey 250 gm Bottle",
+    "brand": "Honey",
+    "pack": "Pack Size: 250 gm",
+    "price": 1221,
+    "oldPrice": 1285,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/200x200?text=Honey+250g",
+    "available": true
+  },
+  {
+    "name": "Saniplast Spot - Antiseptic First Aid Bandage 20 Pcs.",
+    "brand": "Bandage",
+    "pack": "Pack Size: 20 Pcs.",
+    "price": 65,
+    "oldPrice": null,
+    "off": "",
+    "img": "https://via.placeholder.com/200x200?text=Saniplast",
+    "available": true
+  },
+  {
+    "name": "Vitamin C Chewable 1 x 30's Bottle 500 mg",
+    "brand": "Tablets",
+    "pack": "Pack Size: 1 x 30's",
+    "price": 6,
+    "oldPrice": 7,
+    "off": "",
+    "img": "https://via.placeholder.com/200x200?text=Vitamin+C",
+    "available": false
+  }
+]

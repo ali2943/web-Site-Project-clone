@@ -268,3 +268,64 @@ document.addEventListener('visibilitychange', () => {
         authSignupStartCarousel();
     }
 });
+//////////////////////
+// medicine 
+const medTabBar = document.getElementById('medTabBar');
+const medCards = document.getElementById('medCards');
+const medHeadingLetter = document.getElementById('med-heading-letter');
+const medLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+let medProducts = [];
+
+async function medLoadProducts() {
+  try {
+    const res = await fetch('..\\data\\products.json');
+    medProducts = await res.json();
+    medSetActiveLetter("A");
+  } catch (err) {
+    medCards.innerHTML = `<div class="med-empty">Could not load products.</div>`;
+    console.error(err);
+  }
+}
+
+function medRenderTabs(active = "A") {
+  medTabBar.innerHTML = "";
+  medLetters.forEach(letter => {
+    const div = document.createElement("div");
+    div.className = "med-tab" + (letter === active ? " med-active" : "");
+    div.textContent = letter;
+    div.addEventListener("click", () => medSetActiveLetter(letter));
+    medTabBar.appendChild(div);
+  });
+}
+
+function medSetActiveLetter(letter) {
+  medHeadingLetter.textContent = letter;
+  medRenderTabs(letter);
+  medRenderCards(letter);
+}
+
+function medRenderCards(letter) {
+  medCards.innerHTML = "";
+  const filtered = medProducts.filter(p => p.letter?.toUpperCase() === letter);
+  if (!filtered.length) {
+    medCards.innerHTML = `<div class="med-empty">No medicines starting with "${letter}".</div>`;
+    return;
+  }
+  filtered.forEach(p => {
+    const card = document.createElement("div");
+    card.className = "med-card";
+    card.innerHTML = `
+      <div class="med-badge">${p.off || ""}</div>
+      <div class="med-img-box"><img src="${p.img}" alt="${p.name}"></div>
+      <div class="med-title">${p.name}</div>
+      <div class="med-subtitle">${p.brand}</div>
+      <div class="med-subtitle">${p.pack}</div>
+      <div class="med-price">Rs ${p.price} <span class="med-old">Rs ${p.oldPrice}</span></div>
+      <button class="med-btn">Add to Cart</button>
+    `;
+    medCards.appendChild(card);
+  });
+}
+
+// Init
+medLoadProducts();
