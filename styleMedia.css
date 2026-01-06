@@ -144,7 +144,8 @@ body.menu-open {
     
     .mobile-view-logo {
         display: inline;
-        max-width: 80px;
+        max-width: 60px;
+        height: auto;
     }
     
     /* Issue bar - reduce font size */
@@ -154,28 +155,30 @@ body.menu-open {
     }
     
     .issue-bar p {
-        font-size: 12px;
-        line-height: 1.4;
+        font-size: 11px;
+        line-height: 1.3;
+        padding: 5px 0;
     }
     
-    /* Navigation - stack layout */
+    /* Navigation - compact layout */
     .website-nav-bar {
         grid-template-columns: 1fr;
         height: auto;
-        padding: 10px;
-        gap: 10px;
+        padding: 8px 10px;
+        gap: 8px;
     }
     
     .nav-bar-logo-and-search {
         flex-direction: row;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
         width: 100%;
     }
     
     .img-div {
         width: auto;
         justify-content: flex-start;
+        height: auto;
     }
     
     .search-div {
@@ -186,6 +189,13 @@ body.menu-open {
     #input-bar {
         width: 100%;
         max-width: 100%;
+        height: 40px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    #input-bar::placeholder {
+        font-size: 13px;
     }
     
     .login-sign-up-div {
@@ -194,12 +204,30 @@ body.menu-open {
     
     .parent-log-sign-up-div {
         justify-content: space-between;
-        padding: 0 10px;
+        padding: 0;
         margin: 0;
+        gap: 15px;
     }
     
     .sign-in-log-in {
-        font-size: 14px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+    
+    #cart-logo {
+        position: relative;
+    }
+    
+    #cart-logo img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .item-count-cart {
+        font-size: 10px;
+        min-width: 18px;
+        height: 18px;
+        line-height: 18px;
     }
     
     /* Navigation columns - hidden, shown via drawer */
@@ -207,24 +235,45 @@ body.menu-open {
         display: block;
     }
     
-    /* Hero section - stack layout */
+    /* Hero section - full width single column */
     .first-line-pharm-consultation-div {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 0;
+        margin: 0;
+        padding: 0;
     }
     
     #pharmacy-div {
         width: 100%;
         max-width: 100%;
         height: auto;
-        margin: 4px 8px;
+        margin: 0;
+        padding: 12px;
+        min-height: 160px;
+    }
+    
+    #pharmacy-div h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    #pharmacy-div p {
+        font-size: 12px;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+    
+    #pharmacy-div button {
+        padding: 10px 20px;
+        font-size: 14px;
     }
     
     .slider {
         width: 100%;
         max-width: 100%;
         height: auto;
-        aspect-ratio: 3/1;
+        min-height: 200px;
+        aspect-ratio: 16/9;
     }
     
     .slides {
@@ -237,58 +286,137 @@ body.menu-open {
         object-fit: cover;
     }
     
-    /* Service tiles - 1 column */
+    /* Service tiles - responsive 2x2 grid */
     .lower-main-div {
-        grid-template-columns: 1fr;
-        padding: 0 8px;
+        grid-template-columns: 1fr 1fr;
+        padding: 12px 8px;
+        gap: 10px;
     }
     
     .grid-boxes {
         width: 100%;
         max-width: 100%;
         height: auto;
+        min-height: 140px;
+        padding: 12px;
+    }
+    
+    .grid-boxes h3 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    .grid-boxes p {
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+    
+    .grid-boxes button {
+        padding: 8px 16px;
+        font-size: 13px;
     }
     
     .serv-contai {
-        flex-direction: row;
+        flex-direction: column;
         height: auto;
-        min-height: 150px;
+        min-height: 120px;
+        gap: 8px;
     }
     
-    /* Product cards - 1 column */
+    .serv-contai img {
+        max-width: 60px;
+        height: auto;
+    }
+    
+    /* Product cards - better mobile layout */
+    .headingNdArrow {
+        padding: 0 12px;
+        margin: 16px 0 12px 0;
+    }
+    
+    .headingNdArrow h2 {
+        font-size: 18px;
+    }
+    
     .container {
         flex-wrap: nowrap;
         padding: 0 8px;
+        gap: 12px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
     }
     
     .card {
-        width: 280px;
-        min-width: 280px;
+        width: 160px;
+        min-width: 160px;
         flex-shrink: 0;
+        padding: 10px;
     }
     
-    /* Top brands - adjust grid */
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .card h2 {
+        font-size: 13px;
+        line-height: 1.3;
+        margin: 8px 0 4px 0;
+    }
+    
+    .card p {
+        font-size: 11px;
+        margin: 2px 0;
+    }
+    
+    .card h4 {
+        font-size: 13px;
+        margin: 6px 0;
+    }
+    
+    .card button {
+        padding: 8px 12px;
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    /* Top brands - responsive */
     .top-brand-div {
         grid-template-columns: 1fr;
+        padding: 12px 8px;
     }
     
     .top-brand-title {
         width: 100%;
-        margin: 0 8px 16px 8px;
+        margin: 0 0 12px 0;
+        padding: 0 4px;
+    }
+    
+    .top-brand-title h3 {
+        font-size: 18px;
     }
     
     .grid-top-brand {
         overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 8px 0;
     }
     
     .brand-card {
-        min-width: 200px;
+        min-width: 120px;
+        padding: 12px;
+    }
+    
+    .brand-card p {
+        font-size: 12px;
     }
     
     /* Bank offers - stack */
     .bank-offers {
         flex-direction: column;
         gap: 12px;
+        padding: 12px 8px;
     }
     
     .slides-bank {
@@ -296,27 +424,69 @@ body.menu-open {
         max-width: 100%;
     }
     
+    .slides-bank img {
+        width: 100%;
+        height: auto;
+    }
+    
     /* Footer - stack columns */
     .main-div-ul-li {
         grid-template-columns: 1fr;
-        padding: 20px;
-        gap: 30px;
+        padding: 16px 12px;
+        gap: 24px;
     }
     
     .DAWAAI, .POPULAR-CATEOGORIES, .CONTACT-US, .CONNECT-WITH-US {
         text-align: left;
     }
     
+    .footer-heading {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    
+    .main-div-ul-li li {
+        margin: 8px 0;
+    }
+    
+    .main-div-ul-li a {
+        font-size: 13px;
+    }
+    
+    .main-div-ul-li p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    
+    .connect-with-us-div input {
+        font-size: 13px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .connect-with-us-div button {
+        padding: 10px 12px;
+    }
+    
     #google-appstore-logo {
         flex-direction: column;
-        padding: 20px 0;
-        gap: 10px;
+        padding: 16px 0;
+        gap: 12px;
+        align-items: flex-start;
+    }
+    
+    #google-appstore-logo img {
+        max-width: 140px;
     }
     
     .sectigo-iinner-divmg-main-div {
         justify-content: center;
         right: 0;
-        margin: 10px;
+        margin: 12px 0;
+    }
+    
+    .sectigo-iinner-divmg-main-div img {
+        max-width: 220px;
     }
     
     #inner-div {
@@ -325,10 +495,41 @@ body.menu-open {
         text-align: center;
     }
     
+    #inner-div h5 {
+        font-size: 12px;
+    }
+    
     /* About section */
     .container-small {
-        padding: 0 20px;
+        padding: 0 12px;
         margin: 0;
+    }
+    
+    .section {
+        padding: 20px 12px;
+    }
+    
+    .section h1 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .section p {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 12px;
+        text-align: justify;
+    }
+    
+    .section strong {
+        font-size: 14px;
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .section a {
+        color: #003b82;
     }
     
     /* Disease page */
