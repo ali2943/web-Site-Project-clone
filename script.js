@@ -1,5 +1,40 @@
 const scrollAmount = 400;
 
+// ==================== HAMBURGER MENU FUNCTIONALITY ====================
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+const columnsMenu = document.querySelector('.columns');
+
+if (hamburgerMenu && mobileMenuOverlay && columnsMenu) {
+    // Toggle menu when hamburger is clicked
+    hamburgerMenu.addEventListener('click', function() {
+        hamburgerMenu.classList.toggle('active');
+        mobileMenuOverlay.classList.toggle('active');
+        columnsMenu.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+    });
+    
+    // Close menu when overlay is clicked
+    mobileMenuOverlay.addEventListener('click', function() {
+        hamburgerMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+        columnsMenu.classList.remove('active');
+        document.body.classList.remove('menu-open');
+    });
+    
+    // Close menu when a menu link is clicked
+    const menuLinks = columnsMenu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            hamburgerMenu.classList.remove('active');
+            mobileMenuOverlay.classList.remove('active');
+            columnsMenu.classList.remove('active');
+            document.body.classList.remove('menu-open');
+        });
+    });
+}
+
+// ==================== PRODUCT SCROLLING ARROWS ====================
 document.querySelectorAll('.headingNdArrow').forEach(heading => {
     const leftArrow = heading.querySelector('.leftArrow');
     const rightArrow = heading.querySelector('.rightArrow');
