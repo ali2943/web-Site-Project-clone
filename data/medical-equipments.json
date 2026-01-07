@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Omron Digital Blood Pressure Monitor HEM-7120",
+    "brand": "BP Monitor",
+    "pack": "Pack Size: 1 Unit",
+    "price": 5225,
+    "oldPrice": 5500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Omron+BP",
+    "available": true
+  },
+  {
+    "name": "Beurer Digital Thermometer FT09",
+    "brand": "Thermometer",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Thermometer",
+    "available": true
+  },
+  {
+    "name": "On Call Plus Glucometer Strips 50 Pcs",
+    "brand": "Test Strips",
+    "pack": "Pack Size: 50 Strips",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Strips",
+    "available": true
+  },
+  {
+    "name": "Rossmax Nebulizer Machine NK-100",
+    "brand": "Nebulizer",
+    "pack": "Pack Size: 1 Unit",
+    "price": 4275,
+    "oldPrice": 4500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nebulizer",
+    "available": true
+  },
+  {
+    "name": "Fingertip Pulse Oximeter CMS-50D",
+    "brand": "Oximeter",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Oximeter",
+    "available": true
+  },
+  {
+    "name": "Stethoscope Dual Head Professional",
+    "brand": "Stethoscope",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Stethoscope",
+    "available": true
+  },
+  {
+    "name": "Digital Weight Scale Electronic 180kg",
+    "brand": "Weight Scale",
+    "pack": "Pack Size: 1 Unit",
+    "price": 2850,
+    "oldPrice": 3000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Weight+Scale",
+    "available": true
+  },
+  {
+    "name": "Infrared Forehead Thermometer Non-Contact",
+    "brand": "Thermometer",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 3325,
+    "oldPrice": 3500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=IR+Thermometer",
+    "available": false
+  }
+]

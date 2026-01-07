@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Surgical Mask 3-Ply Disposable 50 Pcs",
+    "brand": "Face Mask",
+    "pack": "Pack Size: 50 Pcs",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Surgical+Mask",
+    "available": true
+  },
+  {
+    "name": "Nitrile Gloves Powder Free Medium 100 Pcs",
+    "brand": "Gloves",
+    "pack": "Pack Size: 100 Pcs",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Gloves",
+    "available": true
+  },
+  {
+    "name": "Surgical Gauze Pads Sterile 4x4 100 Pcs",
+    "brand": "Gauze",
+    "pack": "Pack Size: 100 Pcs",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Gauze",
+    "available": true
+  },
+  {
+    "name": "Alcohol Swabs Sterile 100 Pcs",
+    "brand": "Swabs",
+    "pack": "Pack Size: 100 Pcs",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Alcohol+Swabs",
+    "available": true
+  },
+  {
+    "name": "Surgical Tape Micropore 1 inch x 5m",
+    "brand": "Medical Tape",
+    "pack": "Pack Size: 1 Roll",
+    "price": 190,
+    "oldPrice": 200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Tape",
+    "available": true
+  },
+  {
+    "name": "Cotton Wool Roll 500gm",
+    "brand": "Cotton",
+    "pack": "Pack Size: 500gm",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cotton",
+    "available": true
+  },
+  {
+    "name": "Bandage Elastic Crepe 4 inch x 4m",
+    "brand": "Bandage",
+    "pack": "Pack Size: 1 Roll",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Bandage",
+    "available": true
+  },
+  {
+    "name": "Syringes Disposable 5ml 100 Pcs",
+    "brand": "Syringe",
+    "pack": "Pack Size: 100 Pcs",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Syringes",
+    "available": false
+  }
+]

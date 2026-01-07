@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Boiron Arnica Montana 30C 80 Pellets",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Arnica",
+    "available": true
+  },
+  {
+    "name": "Nux Vomica 30C Digestive Relief 80 Pellets",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nux+Vomica",
+    "available": true
+  },
+  {
+    "name": "Calendula Cream Homeopathic 50gm",
+    "brand": "Homeopathic Cream",
+    "pack": "Pack Size: 50gm",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Calendula",
+    "available": true
+  },
+  {
+    "name": "Oscillococcinum Cold & Flu Relief 6 Doses",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 6 Doses",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Oscillo",
+    "available": true
+  },
+  {
+    "name": "Belladonna 30C Fever Relief 80 Pellets",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Belladonna",
+    "available": true
+  },
+  {
+    "name": "Chamomilla 30C Teething Relief 80 Pellets",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Chamomilla",
+    "available": true
+  },
+  {
+    "name": "Hypericum Perforatum 30C Pain Relief 80 Pellets",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 760,
+    "oldPrice": 800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Hypericum",
+    "available": true
+  },
+  {
+    "name": "Rhus Tox 30C Joint Pain 80 Pellets",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Rhus+Tox",
+    "available": false
+  }
+]

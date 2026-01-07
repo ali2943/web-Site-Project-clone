@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Senior Citizen Multivitamin 60 Tablets",
+    "brand": "Multivitamin",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Senior+Multi",
+    "available": true
+  },
+  {
+    "name": "Glucosamine Chondroitin Joint Support 60 Tablets",
+    "brand": "Joint Care",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Glucosamine",
+    "available": true
+  },
+  {
+    "name": "CoQ10 Heart Health 100mg 60 Capsules",
+    "brand": "Heart Support",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 2850,
+    "oldPrice": 3000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=CoQ10",
+    "available": true
+  },
+  {
+    "name": "Memory Support Brain Health 60 Capsules",
+    "brand": "Brain Support",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Memory",
+    "available": true
+  },
+  {
+    "name": "Calcium Plus D3 Bone Health 120 Tablets",
+    "brand": "Bone Support",
+    "pack": "Pack Size: 120 Tablets",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Bone+Health",
+    "available": true
+  },
+  {
+    "name": "Adult Diapers Large 10 Pcs",
+    "brand": "Adult Diaper",
+    "pack": "Pack Size: 10 Pcs",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Adult+Diapers",
+    "available": true
+  },
+  {
+    "name": "Blood Pressure Monitor Automatic",
+    "brand": "BP Monitor",
+    "pack": "Pack Size: 1 Unit",
+    "price": 5700,
+    "oldPrice": 6000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=BP+Monitor",
+    "available": true
+  },
+  {
+    "name": "Walking Cane Adjustable Folding",
+    "brand": "Mobility Aid",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Walking+Cane",
+    "available": false
+  }
+]

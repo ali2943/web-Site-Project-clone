@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Pantene Pro-V Shampoo Total Damage Care 400ml",
+    "brand": "Shampoo",
+    "pack": "Pack Size: 400ml",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pantene",
+    "available": true
+  },
+  {
+    "name": "L'Oreal Paris Elvive Hair Mask 300ml",
+    "brand": "Hair Mask",
+    "pack": "Pack Size: 300ml",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=LOreal+Mask",
+    "available": true
+  },
+  {
+    "name": "Tresemme Keratin Smooth Conditioner 400ml",
+    "brand": "Conditioner",
+    "pack": "Pack Size: 400ml",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Tresemme",
+    "available": true
+  },
+  {
+    "name": "Sunsilk Anti Hair Fall Shampoo 400ml",
+    "brand": "Shampoo",
+    "pack": "Pack Size: 400ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Sunsilk",
+    "available": true
+  },
+  {
+    "name": "OPI Nail Lacquer 15ml",
+    "brand": "Nail Polish",
+    "pack": "Pack Size: 15ml",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=OPI+Polish",
+    "available": true
+  },
+  {
+    "name": "Nair Hair Removal Cream 110gm",
+    "brand": "Hair Removal",
+    "pack": "Pack Size: 110gm",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nair",
+    "available": true
+  },
+  {
+    "name": "Maybelline Nail Polish Remover 125ml",
+    "brand": "Remover",
+    "pack": "Pack Size: 125ml",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Remover",
+    "available": true
+  },
+  {
+    "name": "Vatika Hair Oil Coconut 200ml",
+    "brand": "Hair Oil",
+    "pack": "Pack Size: 200ml",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Vatika+Oil",
+    "available": false
+  }
+]
