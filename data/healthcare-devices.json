@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Digital Blood Pressure Monitor Omron",
+    "brand": "Blood Pressure Monitor",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 5700,
+    "oldPrice": 6000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=BP+Monitor",
+    "available": true
+  },
+  {
+    "name": "Accu-Chek Active Glucometer Kit",
+    "brand": "Glucometer",
+    "pack": "Pack Size: 1 Kit",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Glucometer",
+    "available": true
+  },
+  {
+    "name": "Digital Thermometer Infrared",
+    "brand": "Thermometer",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Thermometer",
+    "available": true
+  },
+  {
+    "name": "Pulse Oximeter Fingertip",
+    "brand": "Oximeter",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pulse+Oximeter",
+    "available": true
+  },
+  {
+    "name": "Nebulizer Machine Compressor Type",
+    "brand": "Nebulizer",
+    "pack": "Pack Size: 1 Unit",
+    "price": 4750,
+    "oldPrice": 5000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nebulizer",
+    "available": true
+  },
+  {
+    "name": "Ankle Support Brace Adjustable",
+    "brand": "Support Brace",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Ankle+Brace",
+    "available": true
+  },
+  {
+    "name": "Wheelchair Foldable Manual",
+    "brand": "Wheelchair",
+    "pack": "Pack Size: 1 Unit",
+    "price": 19000,
+    "oldPrice": 20000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Wheelchair",
+    "available": true
+  },
+  {
+    "name": "Walking Stick Adjustable Aluminum",
+    "brand": "Walking Aid",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Walking+Stick",
+    "available": false
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Monthly Medicine Refill Service",
+    "brand": "Subscription Service",
+    "pack": "Pack Size: 1 Month",
+    "price": 0,
+    "oldPrice": null,
+    "off": "Free",
+    "img": "https://via.placeholder.com/220x220?text=Monthly+Refill",
+    "available": true
+  },
+  {
+    "name": "Prescription Upload & Delivery",
+    "brand": "Service",
+    "pack": "Pack Size: Per Order",
+    "price": 0,
+    "oldPrice": null,
+    "off": "Free",
+    "img": "https://via.placeholder.com/220x220?text=Upload+Prescription",
+    "available": true
+  },
+  {
+    "name": "Express Delivery Service (Within 2 Hours)",
+    "brand": "Delivery Service",
+    "pack": "Pack Size: Per Order",
+    "price": 200,
+    "oldPrice": 250,
+    "off": "20% Off",
+    "img": "https://via.placeholder.com/220x220?text=Express+Delivery",
+    "available": true
+  },
+  {
+    "name": "Medicine Reminder App Service",
+    "brand": "Digital Service",
+    "pack": "Pack Size: Annual",
+    "price": 0,
+    "oldPrice": null,
+    "off": "Free",
+    "img": "https://via.placeholder.com/220x220?text=Reminder+App",
+    "available": true
+  },
+  {
+    "name": "Chronic Disease Management Package",
+    "brand": "Service Package",
+    "pack": "Pack Size: 3 Months",
+    "price": 4750,
+    "oldPrice": 5000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Disease+Management",
+    "available": true
+  },
+  {
+    "name": "Home Sample Collection Service",
+    "brand": "Lab Service",
+    "pack": "Pack Size: Per Visit",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Sample+Collection",
+    "available": true
+  },
+  {
+    "name": "Pharmacist Consultation (Phone)",
+    "brand": "Consultation",
+    "pack": "Pack Size: 30 Minutes",
+    "price": 0,
+    "oldPrice": null,
+    "off": "Free",
+    "img": "https://via.placeholder.com/220x220?text=Pharmacist+Call",
+    "available": true
+  },
+  {
+    "name": "Auto-Refill Subscription Service",
+    "brand": "Subscription",
+    "pack": "Pack Size: Monthly",
+    "price": 0,
+    "oldPrice": null,
+    "off": "Free",
+    "img": "https://via.placeholder.com/220x220?text=Auto+Refill",
+    "available": true
+  }
+]

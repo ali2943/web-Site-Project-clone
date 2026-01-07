@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Colgate Total Advanced Health Toothpaste 150gm",
+    "brand": "Toothpaste",
+    "pack": "Pack Size: 150gm",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Colgate+Toothpaste",
+    "available": true
+  },
+  {
+    "name": "Garnier Skin Naturals Face Wash 100ml",
+    "brand": "Face Wash",
+    "pack": "Pack Size: 100ml",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Garnier+Face+Wash",
+    "available": true
+  },
+  {
+    "name": "Dove Hair Fall Rescue Shampoo 400ml",
+    "brand": "Shampoo",
+    "pack": "Pack Size: 400ml",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Dove+Shampoo",
+    "available": true
+  },
+  {
+    "name": "Nivea Men Fresh Active Deodorant 150ml",
+    "brand": "Deodorant",
+    "pack": "Pack Size: 150ml",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nivea+Deodorant",
+    "available": true
+  },
+  {
+    "name": "Listerine Cool Mint Mouthwash 250ml",
+    "brand": "Mouthwash",
+    "pack": "Pack Size: 250ml",
+    "price": 523,
+    "oldPrice": 550,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Listerine",
+    "available": true
+  },
+  {
+    "name": "L'Oreal Paris Hair Serum 100ml",
+    "brand": "Hair Serum",
+    "pack": "Pack Size: 100ml",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=LOreal+Serum",
+    "available": true
+  },
+  {
+    "name": "Vaseline Intensive Care Body Lotion 400ml",
+    "brand": "Body Lotion",
+    "pack": "Pack Size: 400ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Vaseline+Lotion",
+    "available": true
+  },
+  {
+    "name": "Gillette Fusion ProGlide Razor",
+    "brand": "Razor",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Gillette+Razor",
+    "available": true
+  }
+]

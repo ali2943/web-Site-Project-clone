@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Organic Moringa Powder 200gm",
+    "brand": "Organic Powder",
+    "pack": "Pack Size: 200gm",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Moringa+Powder",
+    "available": true
+  },
+  {
+    "name": "Hamdard Rooh Afza 800ml",
+    "brand": "Herbal Drink",
+    "pack": "Pack Size: 800ml",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Rooh+Afza",
+    "available": true
+  },
+  {
+    "name": "Organic Turmeric Powder 100gm",
+    "brand": "Organic Spice",
+    "pack": "Pack Size: 100gm",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Turmeric",
+    "available": true
+  },
+  {
+    "name": "Green Tea Organic 25 Tea Bags",
+    "brand": "Tea",
+    "pack": "Pack Size: 25 Bags",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Green+Tea",
+    "available": true
+  },
+  {
+    "name": "Arnica Montana Homeopathic Pellets 30C",
+    "brand": "Homeopathic",
+    "pack": "Pack Size: 80 Pellets",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Arnica",
+    "available": true
+  },
+  {
+    "name": "Organic Apple Cider Vinegar 500ml",
+    "brand": "Vinegar",
+    "pack": "Pack Size: 500ml",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Apple+Cider+Vinegar",
+    "available": true
+  },
+  {
+    "name": "Herbal Triphala Capsules 60 Caps",
+    "brand": "Herbal Capsule",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 760,
+    "oldPrice": 800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Triphala",
+    "available": true
+  },
+  {
+    "name": "Organic Chia Seeds 250gm",
+    "brand": "Seeds",
+    "pack": "Pack Size: 250gm",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Chia+Seeds",
+    "available": true
+  }
+]
