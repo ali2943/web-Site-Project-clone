@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers & Discounts - Dawaai Pakistan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .offers-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .offers-hero {
+            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .offers-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .offers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .offer-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .offer-card:hover {
+            transform: translateY(-10px);
+        }
+        .offer-banner {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .offer-banner.bank {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+        }
+        .offer-banner.seasonal {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+        }
+        .offer-banner.special {
+            background: linear-gradient(135deg, #fa709a, #fee140);
+        }
+        .offer-banner h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .discount-badge {
+            background: white;
+            color: #ff6b6b;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+            margin: 15px 0;
+        }
+        .offer-details {
+            padding: 25px;
+        }
+        .offer-details h4 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .offer-details p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .voucher-code {
+            background: #f8f9fa;
+            border: 2px dashed #86B98C;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 15px 0;
+        }
+        .voucher-code strong {
+            color: #86B98C;
+            font-size: 1.2rem;
+        }
+        .terms-list {
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+        .terms-list li {
+            margin-bottom: 5px;
+        }
+        @media (max-width: 768px) {
+            .offers-hero h1 {
+                font-size: 1.8rem;
+            }
+            .discount-badge {
+                font-size: 1.5rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="issue-bar">
+            <p>We are currently experiencing technical difficulties with our call center. For assistance,
+                please reach out to us via WhatsApp at 0317-1719452. We sincerely apologize for any inconvenience caused.</p>
+        </div>
+        <div class="website-nav-bar">
+            <div class="nav-bar-logo-and-search">
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="img-div">
+                    <a id="logo-dawaai" href="index.html">
+                        <img src="../img/logo.png" alt="dawaai.pk" class="laptop-view-logo">
+                    </a>
+                </div>
+                <div class="search-div">
+                    <input id="input-bar" type="search" placeholder="Search Medicines...">
+                </div>
+            </div>
+            <div class="login-sign-up-div">
+                <div class="parent-log-sign-up-div">
+                    <div class="user-sign-log-in-up">
+                        <a class="sign-in-log-in" href="SignUpLogin.html">Sign in | Sign up</a>
+                    </div>
+                    <a id="cart-logo" href="#"><img src="../img/shopping-bag.png" alt="#"></a>
+                    <div class="item-count-cart">0</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="offers-container">
+        <div class="offers-hero">
+            <h1><i class="fas fa-tags"></i> Special Offers & Discounts</h1>
+            <p>Save big on medicines and healthcare products with our exclusive offers!</p>
+        </div>
+
+        <div class="offers-grid">
+            <div class="offer-card">
+                <div class="offer-banner bank">
+                    <h3><i class="fas fa-credit-card"></i> HBL Discount</h3>
+                    <div class="discount-badge">15-20% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>HBL Card Exclusive Offer</h4>
+                    <p>Get 15% off on all products and 20% off on medicines using HBL debit and credit cards.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>HBLDiscount</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid on all HBL debit and credit cards</li>
+                        <li>Offer valid till end of month</li>
+                        <li>Cannot be combined with other offers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner bank">
+                    <h3><i class="fas fa-building"></i> Meezan Bank Friday</h3>
+                    <div class="discount-badge">20% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Fridays Special with Meezan Bank</h4>
+                    <p>Get flat 20% off only on Fridays when you pay with Meezan Bank Credit/Debit Card.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>MeezanFridays</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid only on Fridays</li>
+                        <li>Applicable on Meezan Bank cards only</li>
+                        <li>Minimum order value: Rs. 500</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner bank">
+                    <h3><i class="fas fa-university"></i> Habib Metro Discount</h3>
+                    <div class="discount-badge">UP TO 25% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Habib Metro Bank Offer</h4>
+                    <p>Get up to 25% off on medicines when you pay through Habib Metro Cards.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>HMBDiscount</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid on all Habib Metro Bank cards</li>
+                        <li>Discount varies by product category</li>
+                        <li>Maximum discount: Rs. 1,000</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner bank">
+                    <h3><i class="fas fa-gem"></i> Silk Bank Premium</h3>
+                    <div class="discount-badge">15-25% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Silk Bank Card Holders</h4>
+                    <p>Get 25% off on Visa Signature Credit Card and 15% off on Platinum Cards on medicines only.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>SBDiscount</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>25% for Visa Signature cards</li>
+                        <li>15% for Platinum cards</li>
+                        <li>Valid on prescription medicines</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner special">
+                    <h3><i class="fas fa-star"></i> Dawaai Discount</h3>
+                    <div class="discount-badge">UP TO 15% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>General Discount for Everyone</h4>
+                    <p>Get discounts of up to 15% on every item added to your cart.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>DawaaiDiscount</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid on all payment methods</li>
+                        <li>No minimum order value</li>
+                        <li>Valid for all customers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner seasonal">
+                    <h3><i class="fas fa-bolt"></i> Flash Sale</h3>
+                    <div class="discount-badge">30% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Limited Time Flash Sale</h4>
+                    <p>Special flash sale on selected products. Hurry! Limited stock available.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>FLASH30</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid on selected products only</li>
+                        <li>While stocks last</li>
+                        <li>Limited to first 100 orders</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner">
+                    <h3><i class="fas fa-users"></i> First Order Special</h3>
+                    <div class="discount-badge">20% OFF</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Welcome Offer for New Customers</h4>
+                    <p>Get 20% off on your first order! Sign up and start saving today.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>FIRST20</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid for new customers only</li>
+                        <li>Minimum order: Rs. 1,000</li>
+                        <li>One-time use per customer</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner seasonal">
+                    <h3><i class="fas fa-gift"></i> Buy 1 Get 1 Free</h3>
+                    <div class="discount-badge">BOGO</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Special BOGO Offer</h4>
+                    <p>Buy 1 Get 1 Free on selected health supplements and vitamins.</p>
+                    <div class="voucher-code">
+                        <p>Use Voucher Code: <strong>BOGO2025</strong></p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Valid on selected supplements only</li>
+                        <li>Equal or lesser value item free</li>
+                        <li>Check product page for eligibility</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offer-card">
+                <div class="offer-banner special">
+                    <h3><i class="fas fa-shipping-fast"></i> Free Delivery</h3>
+                    <div class="discount-badge">Rs. 0</div>
+                </div>
+                <div class="offer-details">
+                    <h4>Free Delivery on Orders Above Rs. 1000</h4>
+                    <p>Get free home delivery on all orders above Rs. 1,000 across Pakistan.</p>
+                    <div class="voucher-code">
+                        <p>Auto-applied at checkout</p>
+                    </div>
+                    <ul class="terms-list">
+                        <li>Minimum order: Rs. 1,000</li>
+                        <li>Valid in all major cities</li>
+                        <li>No voucher code required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 50px; padding: 30px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+            <h2 style="color: #86B98C; margin-bottom: 15px;">How to Redeem Offers</h2>
+            <p style="margin-bottom: 20px;">1. Add items to your cart<br>2. Proceed to checkout<br>3. Enter the voucher code in the promo code field<br>4. Click "Apply" to see your discount</p>
+            <p style="color: #666; font-size: 0.9rem;">*Terms and conditions apply. Offers cannot be combined unless stated otherwise.</p>
+        </div>
+    </section>
+
+    <footer id="footer-dawaai">
+        <div class="main-div-ul-li">
+            <div class="DAWAAI">
+                <h5 class="dawaai-heading">DAWAAI</h5>
+                <ul>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="covid19.html">Covid19</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="refund-policy.html">Refund Policy</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                </ul>
+            </div>
+            <div class="POPULAR-CATEOGORIES">
+                <h5 class="dawaai-heading">POPULAR CATEGORIES</h5>
+                <ul>
+                    <li><a href="#">Oral Care</a></li>
+                    <li><a href="#">Baby Nutrition</a></li>
+                    <li><a href="#">Herbal Care</a></li>
+                    <li><a href="men-products.html">Men's Health</a></li>
+                    <li><a href="#">Women's Health</a></li>
+                    <li><a href="#">Support & Braces</a></li>
+                </ul>
+            </div>
+            <div class="CONTACT-US">
+                <h5 class="dawaai-heading">Contact US</h5>
+                <p>Tel: (021) 111-329-224 <br> <br> Email: pharmacy@dawaai.pk <br> <br>200-A, SMCHS, Karachi Sindh</p>
+            </div>
+            <div class="CONNECT-WITH-US">
+                <h5 class="dawaai-heading">CONNECT WITH US</h5>
+                <div class="email-input-connect">
+                    <input id="input-email-connect" class="email-input" type="email" placeholder="Your Email Address">
+                    <button class="button-send-email" type="submit"><img src="../img/icons8-paper-plane-50 .jpg" alt=""></button>
+                </div>
+                <p class="sign-up-to">Sign Up To Receive Latest News and Updates</p>
+                <h6 class="dawaai-heading">FOLLOW US</h6>
+                <ul>
+                    <div class="social-media">
+                        <li><a href="#"><img src="../img/icons8-facebook-48.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-x-50.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-youtube-30.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-instagram-48.png" alt=""></a></li>
+                    </div>
+                    <div id="google-appstore-logo">
+                        <img src="../img/googleplay.png" alt="#">
+                        <img src="../img/appstore.png" alt="">
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="sectigo-iinner-divmg-main-div">
+            <div class="sectigo-inner-div">
+                <img src="../img/sectigo_trust_seal_sm_2x.png" alt="">
+            </div>
+        </div>
+        <div id="inner-div">
+            <h5>© 2025 Dawaai.pk, All Rights Reserved.</h5>
+            <img src="../img/payment-method.png" alt="#">
+        </div>
+    </footer>
+    <script src="../java Script/script.js"></script>
+</body>
+</html>
