@@ -1,5 +1,55 @@
 const scrollAmount = 400;
 
+// ==================== EXPLORE SERVICES DROPDOWN FUNCTIONALITY ====================
+const exploreServices = document.querySelector('.explore-services');
+const dropDownBtn = exploreServices ? exploreServices.querySelector('.drop-down-btn') : null;
+const dropDownMenu = exploreServices ? exploreServices.querySelector('.drop-down-menue-services') : null;
+
+if (exploreServices && dropDownBtn && dropDownMenu) {
+    // Toggle dropdown on click
+    dropDownBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        exploreServices.classList.toggle('active');
+    });
+
+    // Handle focus on the explore-services container
+    exploreServices.addEventListener('focus', function() {
+        exploreServices.classList.add('active');
+    }, true);
+
+    // Handle blur to close dropdown
+    exploreServices.addEventListener('blur', function(e) {
+        // Check if the new focus target is still within the dropdown
+        if (!exploreServices.contains(e.relatedTarget)) {
+            exploreServices.classList.remove('active');
+        }
+    }, true);
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!exploreServices.contains(e.target)) {
+            exploreServices.classList.remove('active');
+        }
+    });
+
+    // Handle keyboard navigation (Enter and Space keys)
+    dropDownBtn.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            exploreServices.classList.toggle('active');
+        }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && exploreServices.classList.contains('active')) {
+            exploreServices.classList.remove('active');
+            dropDownBtn.focus();
+        }
+    });
+}
+
 // ==================== HAMBURGER MENU FUNCTIONALITY ====================
 const hamburgerMenu = document.getElementById('hamburger-menu');
 const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');

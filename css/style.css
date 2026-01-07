@@ -183,7 +183,9 @@ nav {
 }
 
 
-.explore-services:hover .drop-down-menue-services {
+.explore-services:hover .drop-down-menue-services,
+.explore-services.active .drop-down-menue-services,
+.explore-services:focus-within .drop-down-menue-services {
     display: block;
 }
 
