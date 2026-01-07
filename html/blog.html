@@ -8,141 +8,15 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styleMedia.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        .blog-container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .blog-hero {
-            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
-            color: white;
-            padding: 60px 40px;
-            border-radius: 15px;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .blog-hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-        }
-
-        .blog-categories {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .category-btn {
-            padding: 12px 24px;
-            background: #f8f9fa;
-            border: 2px solid #86B98C;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-        }
-
-        .category-btn:hover,
-        .category-btn.active {
-            background: #86B98C;
-            color: white;
-        }
-
-        .blog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 30px;
-            margin-bottom: 40px;
-        }
-
-        .blog-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .blog-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .blog-image {
-            width: 100%;
-            height: 220px;
-            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
-            color: white;
-        }
-
-        .blog-content {
-            padding: 25px;
-        }
-
-        .blog-meta {
-            display: flex;
-            gap: 20px;
-            font-size: 0.9rem;
-            color: #666;
-            margin-bottom: 15px;
-        }
-
-        .blog-meta span {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        .blog-card h3 {
-            color: #333;
-            margin-bottom: 15px;
-            font-size: 1.3rem;
-        }
-
-        .blog-card p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        .read-more {
-            color: #86B98C;
-            font-weight: 500;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        .read-more:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            .blog-hero h1 {
-                font-size: 1.8rem;
-            }
-
-            .blog-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../css/blog.css">
 </head>
 
 <body>
     <nav>
         <div class="issue-bar">
             <p>
-                We are currently experiencing technical difficulties with our call center. For assistance,
+                We are currently experiencing technical difficulties with our call center. For
+                assistance,
                 please reach out to us via WhatsApp at 0317-1719452. We sincerely apologize for any inconvenience
                 caused.
             </p>
@@ -155,9 +29,10 @@
                     <span></span>
                 </button>
                 <div class="img-div">
-                    <a id="logo-dawaai" href="index.html">
+                    <a id="logo-dawaai" href="https://dawaai.pk">
                         <img src="../img/logo.png" alt="dawaai.pk" class="laptop-view-logo">
                     </a>
+                    <img src="../img/dawaai-mbl-logo.png" alt="#" class="mobile-view-logo">
                 </div>
                 <div class="search-div">
                     <input id="input-bar" type="search" placeholder="Search Medicines...">
@@ -166,13 +41,141 @@
             <div class="login-sign-up-div">
                 <div class="parent-log-sign-up-div">
                     <div class="user-sign-log-in-up">
-                        <a class="sign-in-log-in" href="SignUpLogin.html">Sign in | Sign up</a>
+                        <a class="sign-in-log-in" href="../SignUpLogin.html">Sign in | Sign up</a>
                     </div>
-                    <a id="cart-logo" href="#">
+                    <a id="cart-logo" href="https://dawaai.pk/">
                         <img src="../img/shopping-bag.png" alt="#">
                     </a>
                     <div class="item-count-cart">0</div>
                 </div>
+
+            </div>
+        </div>
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+        <div class="columns">
+            <div class="column-options">
+                <div class="explore-services" tabindex="0">
+                    <a href="javascript:void(0)" class="drop-down-btn">Explore Services 
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <div class="drop-down-menue-services">
+                        <ul class="list-services">
+                            <li>
+                                <a href="#">dShops <span>NEW</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Medicines</a>
+                            </li>
+                            <li>
+                                <a href="#">Lab Tests and Checkups</a>
+                            </li>
+                            <li>
+                                <a href="#">Doctor Consultants</a>
+                            </li>
+                            <li>
+                                <a href="#">Compounding Pharmacy</a>
+                            </li>
+                            <li>
+                                <a href="#">Home Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul id="ul-options-nav">
+                    <li class="drop-down">
+                        <a style="color: #86B98C !important;" href="../html/disease.html">Disease </a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Medicine</a>
+                        <div class="drop-down-menu">
+                            <p>View By Category</p>
+                            <a href="../html/medicineAtoZ.html">Medicine A-Z</a>
+                            <a href="../html/medicinebtclass.html">Medicine by Systemetic Class</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Personal Care</a>
+                        <div class="drop-down-menu">
+                            <a href="#">Oral Hygiene</a>
+                            <a href="#">Skin Care</a>
+                            <a href="#">Hair & Nails Care</a>
+                            <a href="#">Fragnances</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Baby Care</a>
+                        <div class="drop-down-menu">
+                            <a href="#">Baby Nutrition</a>
+                            <a href="#">Baby Bath</a>
+                            <a href="#">Baby Essentials</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Life Style & Fitness</a>
+                        <div class="drop-down-menu">
+                            <a href="../html/wellbeing-products.html">Daily Well-Being</a>
+                            <a href="../html/men-products.html">Men's Health</a>
+                            <a href="#">Women's Health</a>
+                            <a href="#">Elder Care</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Organic</a>
+                        <div class="drop-down-menu">
+                            <a href="#">Homeopathic</a>
+                            <a href="#">Organic Health</a>
+                            <a href="#">Herbal Care</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">HealthCare Devices</a>
+                        <div class="drop-down-menu">
+                            <a href="#">Medical Equipments</a>
+                            <a href="#">Supports and Braces</a>
+                            <a href="#">Hospital Supplies</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="track-order.html">Track Order</a>
+                    </li>
+                    <li class="drop-down" id="li-drop-down-offer">
+                        <a id="drop-down-logo-offer" href="offers.html">
+                            <div class="image-logo-offer"><img id="offers-logo" src="../img/offers-icon.png" alt=""></div>
+                            Offers
+                        </a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Dawaai Plus</a>
+                        <div class="drop-down-menu">
+                            <a href="#">Diabetes Care Program</a>
+                            <a href="#">Obesity Care Program</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a id="drop-down-logo-prescription" href="#">
+                            <div class="asaan-order-logo"><img src="../img/file-prescription.png" alt=""></div>Asaan Order
+                        </a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Company</a>
+                        <div class="drop-down-menu">
+                            <a href="about-us.html">About Us</a>
+                            <a href="contact-us.html">Contact Us</a>
+                            <a href="careers.html">Careers</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="faq.html">FAQs</a>
+                            <a href="covid19.html">COVID-19</a>
+                        </div>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Policies</a>
+                        <div class="drop-down-menu">
+                            <a href="delivery.html">Delivery</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="refund-policy.html">Refund Policy</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>

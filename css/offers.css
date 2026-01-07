@@ -1,0 +1,105 @@
+.offers-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.offers-hero {
+    background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+    color: white;
+    padding: 60px 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.offers-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+.offer-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.offer-card:hover {
+    transform: translateY(-10px);
+}
+.offer-banner {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+.offer-banner.bank {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+.offer-banner.seasonal {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+.offer-banner.special {
+    background: linear-gradient(135deg, #fa709a, #fee140);
+}
+.offer-banner h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.discount-badge {
+    background: white;
+    color: #ff6b6b;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 15px 0;
+}
+.offer-details {
+    padding: 25px;
+}
+.offer-details h4 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+.offer-details p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.voucher-code {
+    background: #f8f9fa;
+    border: 2px dashed #86B98C;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px 0;
+}
+.voucher-code strong {
+    color: #86B98C;
+    font-size: 1.2rem;
+}
+.terms-list {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.terms-list li {
+    margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+.offers-hero h1 {
+    font-size: 1.8rem;
+}
+.discount-badge {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+}

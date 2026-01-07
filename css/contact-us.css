@@ -1,0 +1,124 @@
+.contact-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+    
+.contact-hero {
+    background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+    color: white;
+    padding: 60px 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+    
+.contact-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+    
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+    
+.contact-card {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+    
+.contact-card i {
+    font-size: 3rem;
+    color: #86B98C;
+    margin-bottom: 20px;
+}
+    
+.contact-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+    
+.contact-card p {
+    color: #666;
+    line-height: 1.6;
+}
+    
+.contact-card a {
+    color: #86B98C;
+    text-decoration: none;
+}
+    
+.contact-card a:hover {
+    text-decoration: underline;
+}
+    
+.contact-form {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+    
+.contact-form h2 {
+    color: #86B98C;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+    
+.form-group {
+    margin-bottom: 25px;
+}
+    
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+    
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+    
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+    
+.submit-btn {
+    background: #86B98C;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+    
+.submit-btn:hover {
+    background: #5a9662;
+}
+    
+@media (max-width: 768px) {
+.contact-hero h1 {
+    font-size: 1.8rem;
+}
+    
+.contact-form {
+    padding: 25px;
+}
+}
