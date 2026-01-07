@@ -8,126 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styleMedia.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        .faq-container {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .faq-hero {
-            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
-            color: white;
-            padding: 60px 40px;
-            border-radius: 15px;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .faq-hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-        }
-
-        .faq-categories {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 40px;
-        }
-
-        .category-btn {
-            padding: 15px 20px;
-            background: #f8f9fa;
-            border: 2px solid #86B98C;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-align: center;
-            font-weight: 500;
-        }
-
-        .category-btn:hover {
-            background: #86B98C;
-            color: white;
-        }
-
-        .faq-section {
-            margin-bottom: 40px;
-        }
-
-        .faq-section h2 {
-            color: #86B98C;
-            font-size: 1.8rem;
-            margin-bottom: 25px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #86B98C;
-        }
-
-        .faq-item {
-            background: white;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .faq-question {
-            padding: 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #f8f9fa;
-            transition: background 0.3s ease;
-        }
-
-        .faq-question:hover {
-            background: #e9ecef;
-        }
-
-        .faq-question h3 {
-            margin: 0;
-            font-size: 1.1rem;
-            color: #333;
-        }
-
-        .faq-question i {
-            color: #86B98C;
-            transition: transform 0.3s ease;
-        }
-
-        .faq-question.active i {
-            transform: rotate(180deg);
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-        }
-
-        .faq-answer.active {
-            max-height: 500px;
-        }
-
-        .faq-answer-content {
-            padding: 20px;
-            color: #666;
-            line-height: 1.6;
-        }
-
-        @media (max-width: 768px) {
-            .faq-hero h1 {
-                font-size: 1.8rem;
-            }
-
-            .category-btn {
-                padding: 12px 15px;
-                font-size: 0.9rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../css/faq.css">
 </head>
 
 <body>
@@ -542,29 +423,7 @@
     </footer>
 
     <script src="../java Script/script.js"></script>
-    <script>
-        // FAQ Accordion functionality
-        document.querySelectorAll('.faq-question').forEach(question => {
-            question.addEventListener('click', () => {
-                const answer = question.nextElementSibling;
-                const isActive = answer.classList.contains('active');
-
-                // Close all answers
-                document.querySelectorAll('.faq-answer').forEach(ans => {
-                    ans.classList.remove('active');
-                });
-                document.querySelectorAll('.faq-question').forEach(q => {
-                    q.classList.remove('active');
-                });
-
-                // Open clicked answer if it wasn't active
-                if (!isActive) {
-                    answer.classList.add('active');
-                    question.classList.add('active');
-                }
-            });
-        });
-    </script>
+    <script src="../java Script/faq.js"></script>
 </body>
 
 </html>
