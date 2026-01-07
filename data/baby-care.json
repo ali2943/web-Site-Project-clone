@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Pampers Baby Dry Diapers Size 3 (56 Pcs)",
+    "brand": "Diapers",
+    "pack": "Pack Size: 56 Pcs",
+    "price": 1995,
+    "oldPrice": 2100,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pampers+Diapers",
+    "available": true
+  },
+  {
+    "name": "Johnson's Baby Shampoo 500ml",
+    "brand": "Baby Shampoo",
+    "pack": "Pack Size: 500ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Johnsons+Shampoo",
+    "available": true
+  },
+  {
+    "name": "Cerelac Wheat Baby Food 400gm",
+    "brand": "Baby Food",
+    "pack": "Pack Size: 400gm",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cerelac",
+    "available": true
+  },
+  {
+    "name": "Pigeon Baby Wipes (80 Sheets)",
+    "brand": "Baby Wipes",
+    "pack": "Pack Size: 80 Sheets",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pigeon+Wipes",
+    "available": true
+  },
+  {
+    "name": "Aptamil Gold+ Stage 2 Formula 900gm",
+    "brand": "Baby Formula",
+    "pack": "Pack Size: 900gm",
+    "price": 3325,
+    "oldPrice": 3500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Aptamil+Formula",
+    "available": true
+  },
+  {
+    "name": "Chicco Baby Bottle 250ml",
+    "brand": "Baby Bottle",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Chicco+Bottle",
+    "available": true
+  },
+  {
+    "name": "Sebamed Baby Cream 200ml",
+    "brand": "Baby Cream",
+    "pack": "Pack Size: 200ml",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Sebamed+Cream",
+    "available": true
+  },
+  {
+    "name": "Fisher-Price Baby Rattle Set",
+    "brand": "Baby Toy",
+    "pack": "Pack Size: 1 Set",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Fisher+Price+Rattle",
+    "available": false
+  }
+]

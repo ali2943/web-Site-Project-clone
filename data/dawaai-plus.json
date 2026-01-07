@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Diabetes Care Monthly Package",
+    "brand": "Health Program",
+    "pack": "Pack Size: 1 Month",
+    "price": 4750,
+    "oldPrice": 5000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Diabetes+Care",
+    "available": true
+  },
+  {
+    "name": "Obesity Care Program 3 Months",
+    "brand": "Health Program",
+    "pack": "Pack Size: 3 Months",
+    "price": 11875,
+    "oldPrice": 12500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Obesity+Care",
+    "available": true
+  },
+  {
+    "name": "Blood Sugar Test Strips 50 Pcs",
+    "brand": "Test Strips",
+    "pack": "Pack Size: 50 Strips",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Test+Strips",
+    "available": true
+  },
+  {
+    "name": "HbA1c Test Kit",
+    "brand": "Lab Test",
+    "pack": "Pack Size: 1 Test",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=HbA1c+Test",
+    "available": true
+  },
+  {
+    "name": "Diabetes Diet Plan Consultation",
+    "brand": "Consultation",
+    "pack": "Pack Size: 1 Session",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Diet+Consultation",
+    "available": true
+  },
+  {
+    "name": "Weight Management Program 6 Months",
+    "brand": "Health Program",
+    "pack": "Pack Size: 6 Months",
+    "price": 23750,
+    "oldPrice": 25000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Weight+Management",
+    "available": true
+  },
+  {
+    "name": "Cholesterol Complete Test Package",
+    "brand": "Lab Test",
+    "pack": "Pack Size: 1 Test",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cholesterol+Test",
+    "available": true
+  },
+  {
+    "name": "Annual Health Checkup Package",
+    "brand": "Health Package",
+    "pack": "Pack Size: 1 Year",
+    "price": 9500,
+    "oldPrice": 10000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Annual+Checkup",
+    "available": false
+  }
+]

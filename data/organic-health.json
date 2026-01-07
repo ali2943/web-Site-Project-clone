@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Organic Spirulina Powder 200gm",
+    "brand": "Superfood",
+    "pack": "Pack Size: 200gm",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Spirulina",
+    "available": true
+  },
+  {
+    "name": "Organic Wheatgrass Powder 100gm",
+    "brand": "Superfood",
+    "pack": "Pack Size: 100gm",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Wheatgrass",
+    "available": true
+  },
+  {
+    "name": "Organic Ashwagandha Capsules 60 Caps",
+    "brand": "Herbal Supplement",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Ashwagandha",
+    "available": true
+  },
+  {
+    "name": "Organic Maca Root Powder 200gm",
+    "brand": "Superfood",
+    "pack": "Pack Size: 200gm",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Maca",
+    "available": true
+  },
+  {
+    "name": "Organic Flaxseed Oil 500ml",
+    "brand": "Oil",
+    "pack": "Pack Size: 500ml",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Flaxseed+Oil",
+    "available": true
+  },
+  {
+    "name": "Organic Goji Berries 250gm",
+    "brand": "Superfood",
+    "pack": "Pack Size: 250gm",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Goji",
+    "available": true
+  },
+  {
+    "name": "Organic Quinoa Seeds 500gm",
+    "brand": "Superfood",
+    "pack": "Pack Size: 500gm",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Quinoa",
+    "available": true
+  },
+  {
+    "name": "Organic Coconut Oil Virgin 500ml",
+    "brand": "Oil",
+    "pack": "Pack Size: 500ml",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Coconut+Oil",
+    "available": false
+  }
+]

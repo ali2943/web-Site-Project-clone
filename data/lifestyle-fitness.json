@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Centrum Multivitamin Adults 60 Tablets",
+    "brand": "Multivitamin",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Centrum",
+    "available": true
+  },
+  {
+    "name": "Optimum Nutrition Whey Protein 900gm",
+    "brand": "Protein Powder",
+    "pack": "Pack Size: 900gm",
+    "price": 7125,
+    "oldPrice": 7500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=ON+Whey+Protein",
+    "available": true
+  },
+  {
+    "name": "Omega 3 Fish Oil Capsules 1000mg (100 Caps)",
+    "brand": "Supplement",
+    "pack": "Pack Size: 100 Capsules",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Omega+3",
+    "available": true
+  },
+  {
+    "name": "Resistance Exercise Bands Set (5 Pcs)",
+    "brand": "Fitness Equipment",
+    "pack": "Pack Size: 5 Pcs",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Resistance+Bands",
+    "available": true
+  },
+  {
+    "name": "Yoga Mat Premium Quality 6mm",
+    "brand": "Fitness Mat",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Yoga+Mat",
+    "available": true
+  },
+  {
+    "name": "Nature's Bounty Vitamin D3 5000 IU (100 Tablets)",
+    "brand": "Vitamin",
+    "pack": "Pack Size: 100 Tablets",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Vitamin+D3",
+    "available": true
+  },
+  {
+    "name": "Protein Shaker Bottle 700ml",
+    "brand": "Shaker",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Shaker+Bottle",
+    "available": true
+  },
+  {
+    "name": "BioTech USA BCAA 8:1:1 300g",
+    "brand": "Supplement",
+    "pack": "Pack Size: 300g",
+    "price": 3800,
+    "oldPrice": 4000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=BCAA",
+    "available": false
+  }
+]

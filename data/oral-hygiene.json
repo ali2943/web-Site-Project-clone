@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Colgate Total Whitening Toothpaste 150gm",
+    "brand": "Toothpaste",
+    "pack": "Pack Size: 150gm",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Colgate+Whitening",
+    "available": true
+  },
+  {
+    "name": "Oral-B Pro Expert Toothbrush Soft",
+    "brand": "Toothbrush",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Oral-B+Toothbrush",
+    "available": true
+  },
+  {
+    "name": "Listerine Total Care Mouthwash 500ml",
+    "brand": "Mouthwash",
+    "pack": "Pack Size: 500ml",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Listerine",
+    "available": true
+  },
+  {
+    "name": "Sensodyne Rapid Relief Toothpaste 100gm",
+    "brand": "Toothpaste",
+    "pack": "Pack Size: 100gm",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Sensodyne",
+    "available": true
+  },
+  {
+    "name": "Colgate Plax Mouthwash Fresh Mint 250ml",
+    "brand": "Mouthwash",
+    "pack": "Pack Size: 250ml",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Colgate+Plax",
+    "available": true
+  },
+  {
+    "name": "Oral-B Dental Floss 50m",
+    "brand": "Dental Floss",
+    "pack": "Pack Size: 50m",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Dental+Floss",
+    "available": true
+  },
+  {
+    "name": "Pepsodent Toothpaste Germi Check 150gm",
+    "brand": "Toothpaste",
+    "pack": "Pack Size: 150gm",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pepsodent",
+    "available": true
+  },
+  {
+    "name": "Crest 3D White Toothpaste 116gm",
+    "brand": "Toothpaste",
+    "pack": "Pack Size: 116gm",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Crest+3D",
+    "available": false
+  }
+]

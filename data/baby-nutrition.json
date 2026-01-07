@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Similac Advance Stage 2 Formula 850gm",
+    "brand": "Baby Formula",
+    "pack": "Pack Size: 850gm",
+    "price": 3325,
+    "oldPrice": 3500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Similac",
+    "available": true
+  },
+  {
+    "name": "Nestlé NAN Pro 1 Formula 400gm",
+    "brand": "Baby Formula",
+    "pack": "Pack Size: 400gm",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=NAN+Pro",
+    "available": true
+  },
+  {
+    "name": "Cerelac Rice Baby Cereal 400gm",
+    "brand": "Baby Cereal",
+    "pack": "Pack Size: 400gm",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cerelac+Rice",
+    "available": true
+  },
+  {
+    "name": "Heinz Baby Food Fruity Custard 120gm",
+    "brand": "Baby Food",
+    "pack": "Pack Size: 120gm",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Heinz",
+    "available": true
+  },
+  {
+    "name": "Enfamil A+ Stage 1 Formula 400gm",
+    "brand": "Baby Formula",
+    "pack": "Pack Size: 400gm",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Enfamil",
+    "available": true
+  },
+  {
+    "name": "Gerber Organic Baby Food Apple 113gm",
+    "brand": "Baby Food",
+    "pack": "Pack Size: 113gm",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Gerber",
+    "available": true
+  },
+  {
+    "name": "Lactogen 1 Infant Formula 400gm",
+    "brand": "Baby Formula",
+    "pack": "Pack Size: 400gm",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Lactogen",
+    "available": true
+  },
+  {
+    "name": "Cerelac Multi Grain 5 Fruits 400gm",
+    "brand": "Baby Cereal",
+    "pack": "Pack Size: 400gm",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cerelac+Multi",
+    "available": false
+  }
+]

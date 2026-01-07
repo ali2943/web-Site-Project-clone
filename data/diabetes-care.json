@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Diabetes Care Package 3 Months",
+    "brand": "Care Program",
+    "pack": "Pack Size: 3 Months",
+    "price": 11875,
+    "oldPrice": 12500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Diabetes+3M",
+    "available": true
+  },
+  {
+    "name": "Diabetes Care Package 6 Months",
+    "brand": "Care Program",
+    "pack": "Pack Size: 6 Months",
+    "price": 22800,
+    "oldPrice": 24000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Diabetes+6M",
+    "available": true
+  },
+  {
+    "name": "Diabetes Care Package Annual",
+    "brand": "Care Program",
+    "pack": "Pack Size: 12 Months",
+    "price": 42750,
+    "oldPrice": 45000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Diabetes+Annual",
+    "available": true
+  },
+  {
+    "name": "Blood Sugar Test Strips Monthly Supply",
+    "brand": "Test Strips",
+    "pack": "Pack Size: 100 Strips",
+    "price": 2850,
+    "oldPrice": 3000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Test+Strips",
+    "available": true
+  },
+  {
+    "name": "HbA1c Test Quarterly Package",
+    "brand": "Lab Test",
+    "pack": "Pack Size: 3 Tests",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=HbA1c+Test",
+    "available": true
+  },
+  {
+    "name": "Diabetic Nutrition Consultation",
+    "brand": "Consultation",
+    "pack": "Pack Size: 1 Session",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nutrition",
+    "available": true
+  },
+  {
+    "name": "Diabetes Medication Monthly Refill",
+    "brand": "Medication",
+    "pack": "Pack Size: 1 Month",
+    "price": 3800,
+    "oldPrice": 4000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Medication",
+    "available": true
+  },
+  {
+    "name": "Diabetes Care Starter Kit",
+    "brand": "Starter Kit",
+    "pack": "Pack Size: 1 Kit",
+    "price": 4750,
+    "oldPrice": 5000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Starter+Kit",
+    "available": false
+  }
+]

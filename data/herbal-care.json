@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Hamdard Safi Natural Blood Purifier 200ml",
+    "brand": "Herbal Tonic",
+    "pack": "Pack Size: 200ml",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Safi",
+    "available": true
+  },
+  {
+    "name": "Qarshi Joshanda Herbal Tea 6 Sachets",
+    "brand": "Herbal Tea",
+    "pack": "Pack Size: 6 Sachets",
+    "price": 190,
+    "oldPrice": 200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Joshanda",
+    "available": true
+  },
+  {
+    "name": "Ashwagandha Herbal Powder 100gm",
+    "brand": "Herbal Powder",
+    "pack": "Pack Size: 100gm",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Ashwagandha",
+    "available": true
+  },
+  {
+    "name": "Aloe Vera Juice Pure 500ml",
+    "brand": "Herbal Juice",
+    "pack": "Pack Size: 500ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Aloe+Vera",
+    "available": true
+  },
+  {
+    "name": "Neem Capsules Herbal 60 Caps",
+    "brand": "Herbal Capsule",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Neem",
+    "available": true
+  },
+  {
+    "name": "Giloy Herbal Immunity Booster 60 Tablets",
+    "brand": "Herbal Tablet",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 760,
+    "oldPrice": 800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Giloy",
+    "available": true
+  },
+  {
+    "name": "Amla Powder Vitamin C 200gm",
+    "brand": "Herbal Powder",
+    "pack": "Pack Size: 200gm",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Amla",
+    "available": true
+  },
+  {
+    "name": "Tulsi Drops Holy Basil 30ml",
+    "brand": "Herbal Drops",
+    "pack": "Pack Size: 30ml",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Tulsi",
+    "available": false
+  }
+]

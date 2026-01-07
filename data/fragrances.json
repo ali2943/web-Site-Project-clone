@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Axe Dark Temptation Body Spray 150ml",
+    "brand": "Body Spray",
+    "pack": "Pack Size: 150ml",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Axe",
+    "available": true
+  },
+  {
+    "name": "J. Perfume Black XS EDT 100ml",
+    "brand": "Perfume",
+    "pack": "Pack Size: 100ml",
+    "price": 4750,
+    "oldPrice": 5000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=J+Perfume",
+    "available": true
+  },
+  {
+    "name": "Rexona Men Deodorant 150ml",
+    "brand": "Deodorant",
+    "pack": "Pack Size: 150ml",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Rexona",
+    "available": true
+  },
+  {
+    "name": "Dove Invisible Dry Deodorant 150ml",
+    "brand": "Deodorant",
+    "pack": "Pack Size: 150ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Dove+Deo",
+    "available": true
+  },
+  {
+    "name": "Versace Eros EDT for Men 100ml",
+    "brand": "Perfume",
+    "pack": "Pack Size: 100ml",
+    "price": 9500,
+    "oldPrice": 10000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Versace+Eros",
+    "available": true
+  },
+  {
+    "name": "Body Shop White Musk Body Lotion 250ml",
+    "brand": "Body Lotion",
+    "pack": "Pack Size: 250ml",
+    "price": 2850,
+    "oldPrice": 3000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=White+Musk",
+    "available": true
+  },
+  {
+    "name": "Nivea Fresh Natural Deodorant Roll-On 50ml",
+    "brand": "Deodorant",
+    "pack": "Pack Size: 50ml",
+    "price": 380,
+    "oldPrice": 400,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nivea+Roll",
+    "available": true
+  },
+  {
+    "name": "Calvin Klein CK One EDT 200ml",
+    "brand": "Perfume",
+    "pack": "Pack Size: 200ml",
+    "price": 7125,
+    "oldPrice": 7500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=CK+One",
+    "available": false
+  }
+]

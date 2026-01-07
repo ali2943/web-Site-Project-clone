@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Obesity Care Program 3 Months",
+    "brand": "Care Program",
+    "pack": "Pack Size: 3 Months",
+    "price": 14250,
+    "oldPrice": 15000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Obesity+3M",
+    "available": true
+  },
+  {
+    "name": "Obesity Care Program 6 Months",
+    "brand": "Care Program",
+    "pack": "Pack Size: 6 Months",
+    "price": 26600,
+    "oldPrice": 28000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Obesity+6M",
+    "available": true
+  },
+  {
+    "name": "Obesity Care Program Annual",
+    "brand": "Care Program",
+    "pack": "Pack Size: 12 Months",
+    "price": 47500,
+    "oldPrice": 50000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Obesity+Annual",
+    "available": true
+  },
+  {
+    "name": "Weight Loss Consultation Package",
+    "brand": "Consultation",
+    "pack": "Pack Size: 4 Sessions",
+    "price": 7125,
+    "oldPrice": 7500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Consultation",
+    "available": true
+  },
+  {
+    "name": "Nutrition & Diet Plan Customized",
+    "brand": "Diet Plan",
+    "pack": "Pack Size: 1 Month",
+    "price": 2850,
+    "oldPrice": 3000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Diet+Plan",
+    "available": true
+  },
+  {
+    "name": "Body Composition Analysis",
+    "brand": "Lab Test",
+    "pack": "Pack Size: 1 Test",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Body+Analysis",
+    "available": true
+  },
+  {
+    "name": "Thyroid Function Test Package",
+    "brand": "Lab Test",
+    "pack": "Pack Size: 1 Test",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Thyroid+Test",
+    "available": true
+  },
+  {
+    "name": "Obesity Medication Monthly Supply",
+    "brand": "Medication",
+    "pack": "Pack Size: 1 Month",
+    "price": 4750,
+    "oldPrice": 5000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Medication",
+    "available": false
+  }
+]

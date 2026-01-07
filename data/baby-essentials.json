@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Avent Natural Baby Bottle 260ml",
+    "brand": "Baby Bottle",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Avent+Bottle",
+    "available": true
+  },
+  {
+    "name": "MAM Anti-Colic Bottle 260ml",
+    "brand": "Baby Bottle",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=MAM+Bottle",
+    "available": true
+  },
+  {
+    "name": "Baby Care Pacifier 0-6 Months",
+    "brand": "Pacifier",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pacifier",
+    "available": true
+  },
+  {
+    "name": "Johnson's Baby Powder 400gm",
+    "brand": "Baby Powder",
+    "pack": "Pack Size: 400gm",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Baby+Powder",
+    "available": true
+  },
+  {
+    "name": "Pigeon Silicone Nipple Shield",
+    "brand": "Nipple Shield",
+    "pack": "Pack Size: 1 Set",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nipple+Shield",
+    "available": true
+  },
+  {
+    "name": "Baby Nail Clippers Safety Set",
+    "brand": "Baby Care",
+    "pack": "Pack Size: 1 Set",
+    "price": 475,
+    "oldPrice": 500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nail+Clippers",
+    "available": true
+  },
+  {
+    "name": "Tommee Tippee Closer to Nature Teats",
+    "brand": "Bottle Teats",
+    "pack": "Pack Size: 2 Pcs",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Teats",
+    "available": true
+  },
+  {
+    "name": "Baby Thermometer Digital Infrared",
+    "brand": "Thermometer",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Thermometer",
+    "available": false
+  }
+]

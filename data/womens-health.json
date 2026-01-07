@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Folic Acid Women's Multivitamin 60 Tablets",
+    "brand": "Multivitamin",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Folic+Acid",
+    "available": true
+  },
+  {
+    "name": "Calcium + Vitamin D3 for Women 60 Tablets",
+    "brand": "Supplement",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Calcium+D3",
+    "available": true
+  },
+  {
+    "name": "Iron Supplement Ferrous Sulfate 30 Tablets",
+    "brand": "Iron Tablet",
+    "pack": "Pack Size: 30 Tablets",
+    "price": 285,
+    "oldPrice": 300,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Iron",
+    "available": true
+  },
+  {
+    "name": "Prenatal Vitamins Complete 90 Tablets",
+    "brand": "Prenatal",
+    "pack": "Pack Size: 90 Tablets",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Prenatal",
+    "available": true
+  },
+  {
+    "name": "Evening Primrose Oil 1000mg 60 Capsules",
+    "brand": "Supplement",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Primrose",
+    "available": true
+  },
+  {
+    "name": "Cranberry Extract Urinary Health 60 Capsules",
+    "brand": "Supplement",
+    "pack": "Pack Size: 60 Capsules",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cranberry",
+    "available": true
+  },
+  {
+    "name": "Women's Daily Probiotic 30 Capsules",
+    "brand": "Probiotic",
+    "pack": "Pack Size: 30 Capsules",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Probiotic",
+    "available": true
+  },
+  {
+    "name": "Biotin Hair Skin Nails 5000mcg 60 Tablets",
+    "brand": "Beauty Supplement",
+    "pack": "Pack Size: 60 Tablets",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Biotin",
+    "available": false
+  }
+]

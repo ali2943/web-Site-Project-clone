@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Neutrogena Deep Clean Face Wash 200ml",
+    "brand": "Face Wash",
+    "pack": "Pack Size: 200ml",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Neutrogena",
+    "available": true
+  },
+  {
+    "name": "Pond's Age Miracle Day Cream 50gm",
+    "brand": "Face Cream",
+    "pack": "Pack Size: 50gm",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Ponds+Cream",
+    "available": true
+  },
+  {
+    "name": "Garnier Micellar Water 400ml",
+    "brand": "Cleanser",
+    "pack": "Pack Size: 400ml",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Micellar+Water",
+    "available": true
+  },
+  {
+    "name": "Nivea Soft Moisturizing Cream 100ml",
+    "brand": "Moisturizer",
+    "pack": "Pack Size: 100ml",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Nivea+Soft",
+    "available": true
+  },
+  {
+    "name": "Clean & Clear Foaming Face Wash 150ml",
+    "brand": "Face Wash",
+    "pack": "Pack Size: 150ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Clean+Clear",
+    "available": true
+  },
+  {
+    "name": "Olay Total Effects Day Cream SPF 15 50gm",
+    "brand": "Face Cream",
+    "pack": "Pack Size: 50gm",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Olay",
+    "available": true
+  },
+  {
+    "name": "The Ordinary Niacinamide Serum 30ml",
+    "brand": "Serum",
+    "pack": "Pack Size: 30ml",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Niacinamide",
+    "available": true
+  },
+  {
+    "name": "Cetaphil Gentle Skin Cleanser 500ml",
+    "brand": "Cleanser",
+    "pack": "Pack Size: 500ml",
+    "price": 2850,
+    "oldPrice": 3000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cetaphil",
+    "available": false
+  }
+]

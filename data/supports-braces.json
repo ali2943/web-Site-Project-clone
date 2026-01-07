@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Knee Support Brace Adjustable Neoprene",
+    "brand": "Knee Brace",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Knee+Brace",
+    "available": true
+  },
+  {
+    "name": "Wrist Support Splint Left Medium",
+    "brand": "Wrist Brace",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Wrist+Brace",
+    "available": true
+  },
+  {
+    "name": "Lumbar Back Support Belt Large",
+    "brand": "Back Support",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1710,
+    "oldPrice": 1800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Back+Belt",
+    "available": true
+  },
+  {
+    "name": "Elbow Support Compression Sleeve Medium",
+    "brand": "Elbow Brace",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Elbow+Brace",
+    "available": true
+  },
+  {
+    "name": "Cervical Collar Neck Support Soft",
+    "brand": "Neck Brace",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 950,
+    "oldPrice": 1000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cervical+Collar",
+    "available": true
+  },
+  {
+    "name": "Shoulder Support Immobilizer Universal",
+    "brand": "Shoulder Brace",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Shoulder+Brace",
+    "available": true
+  },
+  {
+    "name": "Compression Stockings Below Knee Medium",
+    "brand": "Compression Wear",
+    "pack": "Pack Size: 1 Pair",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Stockings",
+    "available": true
+  },
+  {
+    "name": "Thumb Spica Splint Right Small",
+    "brand": "Thumb Support",
+    "pack": "Pack Size: 1 Pcs",
+    "price": 760,
+    "oldPrice": 800,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Thumb+Splint",
+    "available": false
+  }
+]

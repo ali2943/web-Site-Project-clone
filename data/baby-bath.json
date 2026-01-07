@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Johnson's Baby Soap 100gm",
+    "brand": "Baby Soap",
+    "pack": "Pack Size: 100gm",
+    "price": 190,
+    "oldPrice": 200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Johnsons+Soap",
+    "available": true
+  },
+  {
+    "name": "Sebamed Baby Bubble Bath 200ml",
+    "brand": "Bubble Bath",
+    "pack": "Pack Size: 200ml",
+    "price": 1140,
+    "oldPrice": 1200,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Sebamed+Bath",
+    "available": true
+  },
+  {
+    "name": "Mustela Gentle Cleansing Gel 200ml",
+    "brand": "Cleansing Gel",
+    "pack": "Pack Size: 200ml",
+    "price": 1900,
+    "oldPrice": 2000,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Mustela",
+    "available": true
+  },
+  {
+    "name": "Pigeon Baby Bath Foam 700ml",
+    "brand": "Bath Foam",
+    "pack": "Pack Size: 700ml",
+    "price": 855,
+    "oldPrice": 900,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Pigeon+Foam",
+    "available": true
+  },
+  {
+    "name": "Chicco Baby Moments Bath Shampoo 200ml",
+    "brand": "Baby Shampoo",
+    "pack": "Pack Size: 200ml",
+    "price": 665,
+    "oldPrice": 700,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Chicco+Shampoo",
+    "available": true
+  },
+  {
+    "name": "Aveeno Baby Soothing Bath Treatment 236ml",
+    "brand": "Bath Treatment",
+    "pack": "Pack Size: 236ml",
+    "price": 1425,
+    "oldPrice": 1500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Aveeno",
+    "available": true
+  },
+  {
+    "name": "Johnson's Baby Top-to-Toe Wash 500ml",
+    "brand": "Body Wash",
+    "pack": "Pack Size: 500ml",
+    "price": 570,
+    "oldPrice": 600,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Top+to+Toe",
+    "available": true
+  },
+  {
+    "name": "Cetaphil Baby Wash & Shampoo 400ml",
+    "brand": "Wash & Shampoo",
+    "pack": "Pack Size: 400ml",
+    "price": 2375,
+    "oldPrice": 2500,
+    "off": "5% Off",
+    "img": "https://via.placeholder.com/220x220?text=Cetaphil+Baby",
+    "available": false
+  }
+]
