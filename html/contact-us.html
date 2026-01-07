@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dawaai Pakistan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .contact-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .contact-hero {
+            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .contact-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card i {
+            font-size: 3rem;
+            color: #86B98C;
+            margin-bottom: 20px;
+        }
+
+        .contact-card h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .contact-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .contact-card a {
+            color: #86B98C;
+            text-decoration: none;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        .contact-form h2 {
+            color: #86B98C;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            background: #86B98C;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #5a9662;
+        }
+
+        @media (max-width: 768px) {
+            .contact-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .contact-form {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="issue-bar">
+            <p>
+                We are currently experiencing technical difficulties with our call center. For assistance,
+                please reach out to us via WhatsApp at 0317-1719452. We sincerely apologize for any inconvenience
+                caused.
+            </p>
+        </div>
+        <div class="website-nav-bar">
+            <div class="nav-bar-logo-and-search">
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="img-div">
+                    <a id="logo-dawaai" href="index.html">
+                        <img src="../img/logo.png" alt="dawaai.pk" class="laptop-view-logo">
+                    </a>
+                </div>
+                <div class="search-div">
+                    <input id="input-bar" type="search" placeholder="Search Medicines...">
+                </div>
+            </div>
+            <div class="login-sign-up-div">
+                <div class="parent-log-sign-up-div">
+                    <div class="user-sign-log-in-up">
+                        <a class="sign-in-log-in" href="SignUpLogin.html">Sign in | Sign up</a>
+                    </div>
+                    <a id="cart-logo" href="#">
+                        <img src="../img/shopping-bag.png" alt="#">
+                    </a>
+                    <div class="item-count-cart">0</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-container">
+        <div class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>We're here to help! Reach out to us through any of the channels below</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Call Center</h3>
+                <p>
+                    <strong>Landline:</strong> (021) 111-329-224<br>
+                    <strong>WhatsApp:</strong> <a href="tel:03171719452">0317-1719452</a><br>
+                    <strong>Available:</strong> 9 AM - 9 PM (Mon-Sat)
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Us</h3>
+                <p>
+                    <strong>General Inquiries:</strong><br>
+                    <a href="mailto:pharmacy@dawaai.pk">pharmacy@dawaai.pk</a><br><br>
+                    <strong>Support:</strong><br>
+                    <a href="mailto:support@dawaai.pk">support@dawaai.pk</a>
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Visit Us</h3>
+                <p>
+                    <strong>Head Office:</strong><br>
+                    200-A, SMCHS,<br>
+                    Karachi, Sindh<br>
+                    Pakistan
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fas fa-clock"></i>
+                <h3>Business Hours</h3>
+                <p>
+                    <strong>Monday - Saturday:</strong><br>
+                    9:00 AM - 9:00 PM<br><br>
+                    <strong>Sunday:</strong><br>
+                    10:00 AM - 6:00 PM
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>WhatsApp Support</h3>
+                <p>
+                    For quick assistance, message us on WhatsApp<br>
+                    <a href="https://wa.me/923171719452">0317-1719452</a><br>
+                    Available 24/7
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fas fa-comments"></i>
+                <h3>Live Chat</h3>
+                <p>
+                    Chat with our customer support team directly on our website or mobile app<br>
+                    <strong>Response Time:</strong> Under 5 minutes
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="order">Order Related Query</option>
+                        <option value="product">Product Information</option>
+                        <option value="delivery">Delivery Issue</option>
+                        <option value="refund">Refund Request</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="suggestion">Suggestion</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <div style="margin-top: 50px; text-align: center;">
+            <h2 style="color: #86B98C; margin-bottom: 20px;">Follow Us on Social Media</h2>
+            <div style="display: flex; justify-content: center; gap: 20px; font-size: 2.5rem;">
+                <a href="#" style="color: #4267B2;"><i class="fab fa-facebook"></i></a>
+                <a href="#" style="color: #1DA1F2;"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="color: #E4405F;"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="color: #FF0000;"><i class="fab fa-youtube"></i></a>
+                <a href="#" style="color: #0077B5;"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-dawaai">
+        <div class="main-div-ul-li">
+            <div class="DAWAAI">
+                <h5 class="dawaai-heading">DAWAAI</h5>
+                <ul>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="covid19.html">Covid19</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="refund-policy.html">Refund Policy</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                </ul>
+            </div>
+            <div class="POPULAR-CATEOGORIES">
+                <h5 class="dawaai-heading">POPULAR CATEGORIES</h5>
+                <ul>
+                    <li><a href="#">Oral Care</a></li>
+                    <li><a href="#">Baby Nutrition</a></li>
+                    <li><a href="#">Herbal Care</a></li>
+                    <li><a href="men-products.html">Men's Health</a></li>
+                    <li><a href="#">Women's Health</a></li>
+                    <li><a href="#">Support & Braces</a></li>
+                </ul>
+            </div>
+            <div class="CONTACT-US">
+                <h5 class="dawaai-heading">Contact US</h5>
+                <p>Tel: (021) 111-329-224 <br> <br> Email: pharmacy@dawaai.pk <br> <br>200-A, SMCHS, Karachi Sindh
+                </p>
+            </div>
+            <div class="CONNECT-WITH-US">
+                <h5 class="dawaai-heading">CONNECT WITH US</h5>
+                <div class="email-input-connect">
+                    <input id="input-email-connect" class="email-input" type="email" placeholder="Your Email Address">
+                    <button class="button-send-email" type="submit"><img src="../img/icons8-paper-plane-50 .jpg"
+                            alt=""></button>
+                </div>
+                <p class="sign-up-to">Sign Up To Receive Latest News and Updates</p>
+                <h6 class="dawaai-heading">FOLLOW US</h6>
+                <ul>
+                    <div class="social-media">
+                        <li><a href="#"><img src="../img/icons8-facebook-48.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-x-50.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-youtube-30.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-instagram-48.png" alt=""></a></li>
+                    </div>
+                    <div id="google-appstore-logo">
+                        <img src="../img/googleplay.png" alt="#">
+                        <img src="../img/appstore.png" alt="">
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="sectigo-iinner-divmg-main-div">
+            <div class="sectigo-inner-div">
+                <img src="../img/sectigo_trust_seal_sm_2x.png" alt="">
+            </div>
+        </div>
+        <div id="inner-div">
+            <h5>© 2025 Dawaai.pk, All Rights Reserved.</h5>
+            <img src="../img/payment-method.png" alt="#">
+        </div>
+    </footer>
+
+    <script src="../java Script/script.js"></script>
+</body>
+
+</html>

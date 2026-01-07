@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Blog - Dawaai Pakistan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .blog-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .blog-hero {
+            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .blog-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .blog-categories {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .category-btn {
+            padding: 12px 24px;
+            background: #f8f9fa;
+            border: 2px solid #86B98C;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .category-btn:hover,
+        .category-btn.active {
+            background: #86B98C;
+            color: white;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .blog-image {
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+        }
+
+        .blog-content {
+            padding: 25px;
+        }
+
+        .blog-meta {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .blog-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blog-card h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .blog-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .read-more {
+            color: #86B98C;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .blog-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="issue-bar">
+            <p>
+                We are currently experiencing technical difficulties with our call center. For assistance,
+                please reach out to us via WhatsApp at 0317-1719452. We sincerely apologize for any inconvenience
+                caused.
+            </p>
+        </div>
+        <div class="website-nav-bar">
+            <div class="nav-bar-logo-and-search">
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="img-div">
+                    <a id="logo-dawaai" href="index.html">
+                        <img src="../img/logo.png" alt="dawaai.pk" class="laptop-view-logo">
+                    </a>
+                </div>
+                <div class="search-div">
+                    <input id="input-bar" type="search" placeholder="Search Medicines...">
+                </div>
+            </div>
+            <div class="login-sign-up-div">
+                <div class="parent-log-sign-up-div">
+                    <div class="user-sign-log-in-up">
+                        <a class="sign-in-log-in" href="SignUpLogin.html">Sign in | Sign up</a>
+                    </div>
+                    <a id="cart-logo" href="#">
+                        <img src="../img/shopping-bag.png" alt="#">
+                    </a>
+                    <div class="item-count-cart">0</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="blog-container">
+        <div class="blog-hero">
+            <h1><i class="fas fa-newspaper"></i> Health Blog</h1>
+            <p>Stay informed with the latest health tips, medical news, and wellness advice</p>
+        </div>
+
+        <div class="blog-categories">
+            <button class="category-btn active">All Articles</button>
+            <button class="category-btn">Health Tips</button>
+            <button class="category-btn">Nutrition</button>
+            <button class="category-btn">Fitness</button>
+            <button class="category-btn">Mental Health</button>
+            <button class="category-btn">Diseases</button>
+            <button class="category-btn">Medicine Guide</button>
+        </div>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Jan 5, 2025</span>
+                        <span><i class="far fa-user"></i> Dr. Ahmed Khan</span>
+                    </div>
+                    <h3>10 Tips for Maintaining Heart Health in Pakistan</h3>
+                    <p>Heart disease is one of the leading causes of death in Pakistan. Learn essential tips to keep your heart healthy through diet, exercise, and lifestyle changes.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-apple-alt"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Jan 3, 2025</span>
+                        <span><i class="far fa-user"></i> Nutritionist Fatima</span>
+                    </div>
+                    <h3>Balanced Diet Guide for Pakistani Families</h3>
+                    <p>Discover how to create nutritious, balanced meals using traditional Pakistani ingredients that your whole family will love.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-pills"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 30, 2024</span>
+                        <span><i class="far fa-user"></i> Pharmacist Sarah</span>
+                    </div>
+                    <h3>Understanding Your Prescription: A Complete Guide</h3>
+                    <p>Learn how to read and understand your prescription, know when to take medications, and recognize potential side effects.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 28, 2024</span>
+                        <span><i class="far fa-user"></i> Fitness Expert Ali</span>
+                    </div>
+                    <h3>Home Workout Routines for Busy Professionals</h3>
+                    <p>Stay fit without going to the gym! These simple home exercises can be done in 20 minutes and require no equipment.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 25, 2024</span>
+                        <span><i class="far fa-user"></i> Dr. Ayesha Malik</span>
+                    </div>
+                    <h3>Managing Stress and Anxiety in Modern Life</h3>
+                    <p>Mental health is as important as physical health. Discover effective techniques to manage stress and improve your mental wellbeing.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 22, 2024</span>
+                        <span><i class="far fa-user"></i> Dr. Hassan Ali</span>
+                    </div>
+                    <h3>Diabetes Management: Tips for Pakistani Patients</h3>
+                    <p>Living with diabetes requires lifestyle adjustments. Learn practical tips for managing blood sugar levels while enjoying Pakistani cuisine.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 20, 2024</span>
+                        <span><i class="far fa-user"></i> Dr. Nida Khan</span>
+                    </div>
+                    <h3>Essential Vaccinations for Children in Pakistan</h3>
+                    <p>Protect your child's health with essential vaccinations. Here's a complete guide to the immunization schedule in Pakistan.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 18, 2024</span>
+                        <span><i class="far fa-user"></i> Dermatologist Zara</span>
+                    </div>
+                    <h3>Skincare Tips for Pakistani Weather</h3>
+                    <p>Pakistan's climate can be harsh on your skin. Learn how to protect and nourish your skin in different seasons.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <i class="fas fa-lungs"></i>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Dec 15, 2024</span>
+                        <span><i class="far fa-user"></i> Dr. Kamran Shah</span>
+                    </div>
+                    <h3>Respiratory Health: Dealing with Air Pollution</h3>
+                    <p>Air quality is a growing concern in Pakistani cities. Discover ways to protect your respiratory health from pollution.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <p style="color: #666; font-size: 1.1rem;">Want to contribute to our blog? <a href="contact-us.html" style="color: #86B98C; font-weight: 500;">Contact Us</a></p>
+        </div>
+    </section>
+
+    <footer id="footer-dawaai">
+        <div class="main-div-ul-li">
+            <div class="DAWAAI">
+                <h5 class="dawaai-heading">DAWAAI</h5>
+                <ul>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="covid19.html">Covid19</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="refund-policy.html">Refund Policy</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                </ul>
+            </div>
+            <div class="POPULAR-CATEOGORIES">
+                <h5 class="dawaai-heading">POPULAR CATEGORIES</h5>
+                <ul>
+                    <li><a href="#">Oral Care</a></li>
+                    <li><a href="#">Baby Nutrition</a></li>
+                    <li><a href="#">Herbal Care</a></li>
+                    <li><a href="men-products.html">Men's Health</a></li>
+                    <li><a href="#">Women's Health</a></li>
+                    <li><a href="#">Support & Braces</a></li>
+                </ul>
+            </div>
+            <div class="CONTACT-US">
+                <h5 class="dawaai-heading">Contact US</h5>
+                <p>Tel: (021) 111-329-224 <br> <br> Email: pharmacy@dawaai.pk <br> <br>200-A, SMCHS, Karachi Sindh
+                </p>
+            </div>
+            <div class="CONNECT-WITH-US">
+                <h5 class="dawaai-heading">CONNECT WITH US</h5>
+                <div class="email-input-connect">
+                    <input id="input-email-connect" class="email-input" type="email" placeholder="Your Email Address">
+                    <button class="button-send-email" type="submit"><img src="../img/icons8-paper-plane-50 .jpg"
+                            alt=""></button>
+                </div>
+                <p class="sign-up-to">Sign Up To Receive Latest News and Updates</p>
+                <h6 class="dawaai-heading">FOLLOW US</h6>
+                <ul>
+                    <div class="social-media">
+                        <li><a href="#"><img src="../img/icons8-facebook-48.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-x-50.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-youtube-30.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-instagram-48.png" alt=""></a></li>
+                    </div>
+                    <div id="google-appstore-logo">
+                        <img src="../img/googleplay.png" alt="#">
+                        <img src="../img/appstore.png" alt="">
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="sectigo-iinner-divmg-main-div">
+            <div class="sectigo-inner-div">
+                <img src="../img/sectigo_trust_seal_sm_2x.png" alt="">
+            </div>
+        </div>
+        <div id="inner-div">
+            <h5>© 2025 Dawaai.pk, All Rights Reserved.</h5>
+            <img src="../img/payment-method.png" alt="#">
+        </div>
+    </footer>
+
+    <script src="../java Script/script.js"></script>
+</body>
+
+</html>

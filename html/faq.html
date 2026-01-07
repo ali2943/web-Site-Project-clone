@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - Frequently Asked Questions | Dawaai Pakistan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .faq-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .faq-hero {
+            background: linear-gradient(135deg, #86B98C 0%, #5a9662 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .faq-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .faq-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .category-btn {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: 2px solid #86B98C;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .category-btn:hover {
+            background: #86B98C;
+            color: white;
+        }
+
+        .faq-section {
+            margin-bottom: 40px;
+        }
+
+        .faq-section h2 {
+            color: #86B98C;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #86B98C;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f8f9fa;
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e9ecef;
+        }
+
+        .faq-question h3 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .faq-question i {
+            color: #86B98C;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 20px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .faq-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .category-btn {
+                padding: 12px 15px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="issue-bar">
+            <p>
+                We are currently experiencing technical difficulties with our call center. For assistance,
+                please reach out to us via WhatsApp at 0317-1719452. We sincerely apologize for any inconvenience
+                caused.
+            </p>
+        </div>
+        <div class="website-nav-bar">
+            <div class="nav-bar-logo-and-search">
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="img-div">
+                    <a id="logo-dawaai" href="index.html">
+                        <img src="../img/logo.png" alt="dawaai.pk" class="laptop-view-logo">
+                    </a>
+                </div>
+                <div class="search-div">
+                    <input id="input-bar" type="search" placeholder="Search Medicines...">
+                </div>
+            </div>
+            <div class="login-sign-up-div">
+                <div class="parent-log-sign-up-div">
+                    <div class="user-sign-log-in-up">
+                        <a class="sign-in-log-in" href="SignUpLogin.html">Sign in | Sign up</a>
+                    </div>
+                    <a id="cart-logo" href="#">
+                        <img src="../img/shopping-bag.png" alt="#">
+                    </a>
+                    <div class="item-count-cart">0</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="faq-container">
+        <div class="faq-hero">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about Dawaai services</p>
+        </div>
+
+        <div class="faq-section">
+            <h2><i class="fas fa-shopping-cart"></i> Ordering & Payment</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I place an order on Dawaai?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        You can place an order by searching for medicines on our website or app, adding them to your
+                        cart, and proceeding to checkout. If you have a prescription, you can upload it, and our
+                        pharmacists will create the order for you.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What payment methods do you accept?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We accept multiple payment methods including Cash on Delivery (COD), Credit/Debit Cards (Visa,
+                        MasterCard), Online Banking, JazzCash, EasyPaisa, and various bank cards with special discounts.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you offer any discounts or promotional codes?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! We regularly offer discounts with various bank partners including HBL, Meezan Bank, Silk
+                        Bank, and Habib Metro Bank. We also have promotional voucher codes like "DawaaiDiscount" for up
+                        to 15% off. Check our Offers page for current promotions.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is there a minimum order value?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        There is no minimum order value for most cities. However, delivery charges may apply for orders
+                        below Rs. 1,000 in some areas. Check at checkout for specific details.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2><i class="fas fa-truck"></i> Delivery & Shipping</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does delivery take?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Standard delivery takes 24-48 hours for major cities (Karachi, Lahore, Islamabad). For dShops
+                        service in Karachi, you can get your medicines delivered within 60 minutes! Delivery times may
+                        vary for remote areas.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What areas do you deliver to?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We deliver across Pakistan including major cities like Karachi, Lahore, Islamabad, Rawalpindi,
+                        Faisalabad, Multan, Peshawar, Quetta, and many more. Enter your address at checkout to confirm
+                        availability.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Are there any delivery charges?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Delivery is free for orders above Rs. 1,000 in most major cities. For orders below this amount,
+                        a nominal delivery fee of Rs. 99-150 may apply depending on your location.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I track my order?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! You can track your order in real-time through our website or mobile app. You'll also
+                        receive SMS updates at every stage of delivery. Visit the "Track Order" page for more details.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2><i class="fas fa-pills"></i> Medicines & Products</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do I need a prescription to order medicines?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Prescription is required for all prescription medicines. You can upload your prescription during
+                        checkout, and our qualified pharmacists will verify it. Over-the-counter (OTC) medicines do not
+                        require a prescription.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Are the medicines authentic?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Absolutely! We guarantee 100% authentic medicines. All our products are sourced directly from
+                        authorized distributors and manufacturers. We are LegitScript Certified, an international
+                        certification that validates our commitment to quality and authenticity.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What if a medicine is out of stock?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        If a medicine is out of stock, you can request to be notified when it becomes available. Our
+                        team will also contact you to suggest alternative medicines after consulting with our
+                        pharmacists.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2><i class="fas fa-undo"></i> Returns & Refunds</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I return or exchange medicines?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Medicines can be returned within 7 days if the product is damaged, expired, or if you received
+                        the wrong item. Products must be unopened and in original packaging. Please refer to our Refund
+                        Policy page for detailed information.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I request a refund?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Contact our customer support team at (021) 111-329-224 or email pharmacy@dawaai.pk with your
+                        order details and reason for return. Our team will guide you through the refund process. Refunds
+                        are processed within 7-10 business days.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2><i class="fas fa-user-md"></i> Doctor Consultation & Lab Tests</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I book a doctor consultation?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        You can book a doctor consultation through our website or mobile app. Choose your preferred
+                        doctor, select an available time slot, and make the payment. You'll receive a confirmation with
+                        details to join the video consultation.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How much does a doctor consultation cost?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Consultation fees vary by doctor specialty and experience, ranging from Rs. 500 to Rs. 2,500. We
+                        also offer free live chat with doctors for basic health queries.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I book lab tests for home sample collection?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! We offer at-home sample collection services for various lab tests. Book your test online,
+                        and a phlebotomist will visit your home at your preferred time. Reports are delivered online
+                        within 24-48 hours.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2><i class="fas fa-question-circle"></i> General Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is my personal and medical information secure?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes, we take data security very seriously. All personal and medical information is encrypted and
+                        stored securely. We follow strict confidentiality protocols and never share your data with third
+                        parties. Please read our Privacy Policy for more details.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you have a mobile app?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! Our mobile app is available on both iOS (App Store) and Android (Google Play Store).
+                        Download the app for a seamless experience, exclusive app-only offers, and easy access to all
+                        our services.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How can I contact customer support?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        You can reach us through multiple channels:
+                        <ul style="margin-top: 10px; margin-left: 20px;">
+                            <li>Phone: (021) 111-329-224</li>
+                            <li>WhatsApp: 0317-1719452</li>
+                            <li>Email: pharmacy@dawaai.pk</li>
+                            <li>Live Chat: Available on website and app</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 50px; padding: 30px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+            <h2 style="color: #86B98C; margin-bottom: 15px;">Still Have Questions?</h2>
+            <p style="margin-bottom: 20px;">Can't find the answer you're looking for? Our customer support team is here
+                to help!</p>
+            <a href="contact-us.html"
+                style="background: #86B98C; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: inline-block;">Contact
+                Us</a>
+        </div>
+    </section>
+
+    <footer id="footer-dawaai">
+        <div class="main-div-ul-li">
+            <div class="DAWAAI">
+                <h5 class="dawaai-heading">DAWAAI</h5>
+                <ul>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="covid19.html">Covid19</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="refund-policy.html">Refund Policy</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                </ul>
+            </div>
+            <div class="POPULAR-CATEOGORIES">
+                <h5 class="dawaai-heading">POPULAR CATEGORIES</h5>
+                <ul>
+                    <li><a href="#">Oral Care</a></li>
+                    <li><a href="#">Baby Nutrition</a></li>
+                    <li><a href="#">Herbal Care</a></li>
+                    <li><a href="men-products.html">Men's Health</a></li>
+                    <li><a href="#">Women's Health</a></li>
+                    <li><a href="#">Support & Braces</a></li>
+                </ul>
+            </div>
+            <div class="CONTACT-US">
+                <h5 class="dawaai-heading">Contact US</h5>
+                <p>Tel: (021) 111-329-224 <br> <br> Email: pharmacy@dawaai.pk <br> <br>200-A, SMCHS, Karachi Sindh
+                </p>
+            </div>
+            <div class="CONNECT-WITH-US">
+                <h5 class="dawaai-heading">CONNECT WITH US</h5>
+                <div class="email-input-connect">
+                    <input id="input-email-connect" class="email-input" type="email" placeholder="Your Email Address">
+                    <button class="button-send-email" type="submit"><img src="../img/icons8-paper-plane-50 .jpg"
+                            alt=""></button>
+                </div>
+                <p class="sign-up-to">Sign Up To Receive Latest News and Updates</p>
+                <h6 class="dawaai-heading">FOLLOW US</h6>
+                <ul>
+                    <div class="social-media">
+                        <li><a href="#"><img src="../img/icons8-facebook-48.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-x-50.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-youtube-30.png" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icons8-instagram-48.png" alt=""></a></li>
+                    </div>
+                    <div id="google-appstore-logo">
+                        <img src="../img/googleplay.png" alt="#">
+                        <img src="../img/appstore.png" alt="">
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="sectigo-iinner-divmg-main-div">
+            <div class="sectigo-inner-div">
+                <img src="../img/sectigo_trust_seal_sm_2x.png" alt="">
+            </div>
+        </div>
+        <div id="inner-div">
+            <h5>© 2025 Dawaai.pk, All Rights Reserved.</h5>
+            <img src="../img/payment-method.png" alt="#">
+        </div>
+    </footer>
+
+    <script src="../java Script/script.js"></script>
+    <script>
+        // FAQ Accordion functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+
+                // Close all answers
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.classList.remove('active');
+                });
+                document.querySelectorAll('.faq-question').forEach(q => {
+                    q.classList.remove('active');
+                });
+
+                // Open clicked answer if it wasn't active
+                if (!isActive) {
+                    answer.classList.add('active');
+                    question.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
