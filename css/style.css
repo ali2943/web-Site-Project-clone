@@ -183,7 +183,7 @@ nav {
 }
 
 
-.explore-services :focus-within .drop-down-menue-services {
+.explore-services:hover .drop-down-menue-services {
     display: block;
 }
 
